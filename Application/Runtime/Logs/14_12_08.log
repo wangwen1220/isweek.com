@@ -1,0 +1,385 @@
+[ 2014-12-08T11:34:36+08:00 ] 192.168.2.212 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020129s ]
+
+[ 2014-12-08T11:34:42+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+
+[ 2014-12-08T11:41:20+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002012s ]
+
+[ 2014-12-08T11:41:22+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001704s ]
+
+[ 2014-12-08T11:41:23+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002362s ]
+
+[ 2014-12-08T11:43:03+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+
+[ 2014-12-08T11:43:04+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006310s ]
+
+[ 2014-12-08T11:43:13+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000930s ]
+
+[ 2014-12-08T11:43:15+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+
+[ 2014-12-08T11:43:42+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000891s ]
+
+[ 2014-12-08T11:44:07+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000807s ]
+
+[ 2014-12-08T11:44:09+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001842s ]
+
+[ 2014-12-08T11:44:10+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001706s ]
+
+[ 2014-12-08T11:44:19+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002265s ]
+
+[ 2014-12-08T11:44:20+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+
+[ 2014-12-08T11:44:22+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+
+[ 2014-12-08T11:44:23+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001722s ]
+
+[ 2014-12-08T11:44:25+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002075s ]
+
+[ 2014-12-08T11:44:47+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+
+[ 2014-12-08T11:46:03+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001991s ]
+
+[ 2014-12-08T11:46:05+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001696s ]
+
+[ 2014-12-08T11:46:13+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+
+[ 2014-12-08T11:46:15+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+
+[ 2014-12-08T11:46:31+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001102s ]
+
+[ 2014-12-08T11:46:32+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001025s ]
+
+[ 2014-12-08T11:46:34+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+
+[ 2014-12-08T11:46:45+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000951s ]
+
+[ 2014-12-08T11:46:46+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+
+[ 2014-12-08T11:46:47+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+
+[ 2014-12-08T11:46:48+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+
+[ 2014-12-08T11:46:51+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001849s ]
+
+[ 2014-12-08T11:46:53+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001950s ]
+
+[ 2014-12-08T11:46:54+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001696s ]
+
+[ 2014-12-08T11:46:55+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001716s ]
+
+[ 2014-12-08T11:47:03+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001833s ]
+
+[ 2014-12-08T11:47:29+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001998s ]
+
+[ 2014-12-08T11:47:31+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+
+[ 2014-12-08T11:47:32+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001874s ]
+
+[ 2014-12-08T11:47:33+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001702s ]
+
+[ 2014-12-08T11:55:27+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001848s ]
+
+[ 2014-12-08T11:55:28+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002290s ]
+
+[ 2014-12-08T11:55:29+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002171s ]
+
+[ 2014-12-08T11:55:52+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001832s ]
+
+[ 2014-12-08T11:55:53+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001699s ]
+
+[ 2014-12-08T11:56:57+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000824s ]
+
+[ 2014-12-08T11:56:59+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+
+[ 2014-12-08T11:57:05+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001324s ]
+
+[ 2014-12-08T11:57:06+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+
+[ 2014-12-08T11:57:07+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+
+[ 2014-12-08T11:57:07+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+
+[ 2014-12-08T11:57:08+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+
+[ 2014-12-08T11:57:08+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+
+[ 2014-12-08T11:57:12+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+
+[ 2014-12-08T11:57:13+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+
+[ 2014-12-08T11:57:13+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+
+[ 2014-12-08T11:57:19+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+
+[ 2014-12-08T11:57:20+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+
+[ 2014-12-08T11:57:21+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+
+[ 2014-12-08T11:57:21+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+
+[ 2014-12-08T11:57:22+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000857s ]
+
+[ 2014-12-08T11:57:22+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+
+[ 2014-12-08T11:57:22+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000974s ]
+
+[ 2014-12-08T11:57:23+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001894s ]
+
+[ 2014-12-08T11:57:23+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001095s ]
+
+[ 2014-12-08T11:57:23+08:00 ] 192.168.2.212 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001131s ]
+
+[ 2014-12-08T11:57:23+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001062s ]
+
+[ 2014-12-08T11:57:43+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000958s ]
+
+[ 2014-12-08T11:57:44+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000750s ]
+
+[ 2014-12-08T11:57:45+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+
+[ 2014-12-08T11:57:45+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+
+[ 2014-12-08T11:57:51+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000742s ]
+
+[ 2014-12-08T11:57:52+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+
+[ 2014-12-08T11:57:53+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+
+[ 2014-12-08T11:57:53+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+
+[ 2014-12-08T11:57:54+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+
+[ 2014-12-08T11:57:54+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001703s ]
+
+[ 2014-12-08T11:59:54+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.042316s ]
+

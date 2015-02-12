@@ -1,0 +1,82 @@
+<include file="common/header" />
+<body class="J_scroll_fixed">
+	<style>
+.pop_nav {
+	padding: 0px;
+}
+
+.pop_nav ul {
+	border-bottom: 1px solid #266AAE;
+	padding: 0 5px;
+	height: 25px;
+	clear: both;
+}
+
+.pop_nav ul li.current a {
+	border: 1px solid #266AAE;
+	border-bottom: 0 none;
+	color: #333;
+	font-weight: 700;
+	background: #F3F3F3;
+	position: relative;
+	border-radius: 2px;
+	margin-bottom: -1px;
+}
+</style>
+	<div class="wrap J_check_wrap">
+		<admintpl file="nav" />
+		<div class="pop_nav">
+			<ul class="J_tabs_nav">
+				<li class="current"><a href="javascript:;;">基本属性</a></li>
+			</ul>
+		</div>
+		<form class="J_ajaxForm" name="myform" id="myform" action="{:u('term/edit_post')}" method="post">
+		 <input type="hidden" name="term_id" value="{$data.term_id}" />
+			<div class="J_tabs_contents">
+				<div>
+					<div class="table_list">
+						<table cellpadding="0" cellspacing="0" class="table_form"
+							width="100%">
+							<tbody>
+								<tr>
+									<td width="140">上级:</td>
+									<td><select name="parent" class="normal_select">
+											<option value="0">作为一级菜单</option>
+											<foreach name="terms" item="vo">
+												<php>$selected=$data['parent']==$vo['term_id']?"selected":""</php>
+									        	<option value="{$vo.term_id}" {$selected}>{$vo.spacer}{$vo.name}</option>
+											</foreach>
+									</select></td>
+								</tr>
+								<tr>
+									<td>名称:</td>
+									<td><input type="text" class="input" name="name" value="{$data.name}"><span class="must_red">*</span></td>
+								</tr>
+
+								<tr>
+									<td>Homepage Show:</td>
+									<td><input type="checkbox" name="homepage_show" value="1" <if condition="$data[homepage_show]==1">checked="checked"</if> /></td>
+								</tr>
+								<tr>
+									<td>Navigation Show:</td>
+									<td><input type="checkbox" name="navi_show" value="1" <if condition="$data[navi_show]==1">checked="checked"</if>  /></td>
+								</tr>
+
+							</tbody>
+						</table>
+					</div>
+
+
+				</div>
+			</div>
+			<div class="btn_wrap">
+		      <div class="btn_wrap_pd">
+		        <button class="btn btn_submit mr10 J_ajax_submit_btn" type="submit">提交</button>
+		        <a class="btn" href="__URL__">返回</a>
+		      </div>
+		    </div>
+		</form>
+	</div>
+	<script type="text/javascript" src="__ROOT__/statics/js/common.js{$js_debug}"></script>
+</body>
+</html>

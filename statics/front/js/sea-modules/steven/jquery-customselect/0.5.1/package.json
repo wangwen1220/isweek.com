@@ -1,0 +1,21 @@
+{
+    "name": "jquery-customselect",
+    "family": "steven",
+    "version": "0.5.1",
+    "keywords": ["customselect"],
+    "description": "jQuery 下拉表单美化插件。",
+    "homepage": "https://github.com/adamcoulombe/jquery.customSelect.git",
+    "maintainers": [
+        "Steven <wangwen1220@gmail.com>"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/adamcoulombe/jquery.customSelect.git"
+    },
+    "bugs": {
+        "url": "https://github.com/adamcoulombe/jquery.customSelect/issues"
+    },
+    "spm": {
+        "output": ["jquery-customselect.js"]
+    }
+}

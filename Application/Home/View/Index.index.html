@@ -1,0 +1,67 @@
+<include file="common/header"/>
+  <div id="main">
+    <div class="wrapper">
+      <div class="w-fly-mr">
+        <div class="w-fly-cnt">
+          <?php if(empty($curr_term_id)){ ?>
+          <div class="position"><a href="/">Home</a> <i>|</i> <strong>Top Sellers</strong></div>
+          <?php }else{ ?>
+          
+        <div class="position"><a href="/">Home</a>
+        <?php $left_curr_term_ids=array();
+			foreach($term_ids as $id){ 
+				foreach($dao_hang_categorys as $vo){
+					if($id==$vo['term_id']){
+						$left_curr_term_ids[] = $id;
+						if($id != $curr_term_id){
+							$url = rw_category_url($vo['name'],$vo['term_id']);
+							echo '<i>|</i> <a href="'.$url.'">'.$vo['name'].'</a>';
+						}else{
+							echo '<i>|</i> <span class="highlight">'.$vo['name'].'(' . $vo['count'] .' products)</span>';
+						}
+					}
+				} 
+			}
+		?></div>
+		
+          <?php } ?>
+          <div class="proshow">
+		  <?php if($noperpage) { ?>
+		  <?php } else { ?>
+            <div class="proshow-hd clearfix">
+              <form class="sort" action="{$action}" method="get">
+              <input type="hidden" name="p" value="1" />
+              showing <input type="text" name="perpage" size="4" maxlength="4" value="{$perpage}" /> per page 
+              <button type="submit">Update</button></form>
+              <div class="pager-wrap">
+                <div class="w-pager">{$page_html}</div>
+              </div>
+            </div>
+			<?php } ?>
+            <ul class="proshow-bd prolist clearfix">
+            <?php foreach($list as $vo){ ?>
+              <li class="prolist-item"><div class="wrap">
+                <a href="{:rw_product_url($vo['product_name'],$vo['serial_no'],$vo['id'])}" target="_blank" class="thumb"><img src="{$vo.thumb_200}" alt="{$vo.product_name}" width="200" height="200" /></a>
+                <h3 class="title"><a href="{:rw_product_url($vo['product_name'],$vo['serial_no'],$vo['id'])}" target="_blank">{$vo.product_name}</a></h3>
+                <p class="description"><?php echo strip_tags($vo['abstract']); ?></p>
+              </div></li>
+            <?php } ?>
+            
+            </ul>
+		  <?php if($noperpage) { ?>
+		  <?php } else { ?>
+            <div class="proshow-ft clearfix">
+              <div class="pager-wrap">
+                <div class="w-pager">
+                {$page_html}
+                </div>
+              </div>
+            </div>
+		  <?php } ?>
+          </div>
+        </div>
+      </div>
+      <include file="common/sidebar"/>
+    </div>
+  </div>
+<include file="common/footer"/>

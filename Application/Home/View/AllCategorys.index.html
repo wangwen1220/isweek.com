@@ -1,0 +1,22 @@
+<include file="common/header"/>
+  <div id="main">
+    <div class="wrapper">
+      <div class="w-fly-mr">
+        <div class="w-fly-cnt">
+          <div class="position"><a href="/">Home</a> <i>|</i> <strong>All Categories</strong></div>
+          <?php foreach($homepage_categorys as $vo){ ?>
+          <section>
+            <h2><a href="{:rw_category_url($vo['name'],$vo['term_id'])}"><!-- 一级菜单 --><?php echo $vo['name'];?></a></h2>
+            <ul>
+            <?php foreach($vo['_child'] as $vo2){ ?>
+              <li><a href="{:rw_category_url($vo2['name'],$vo2['term_id'])}"><!-- 二级菜单 --><?php echo $vo2['name'];?></a></li>
+            <?php } ?>
+            </ul>
+          </section>
+          <?php } ?>
+        </div>
+      </div>
+      <include file="common/sidebar"/>
+    </div>
+  </div>
+<include file="common/footer"/>

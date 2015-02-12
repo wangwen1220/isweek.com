@@ -1,0 +1,21 @@
+{
+    "name": "jqzoom",
+    "family": "steven",
+    "version": "2.3.0",
+    "keywords": ["jqzoom"],
+    "description": "jQuery 图片放大插件",
+    "homepage": "https://github.com/wangwen1220/jqzoom.git",
+    "maintainers": [
+        "Steven <wangwen1220@gmail.com>"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/wangwen1220/jqzoom.git"
+    },
+    "bugs": {
+        "url": "https://github.com/wangwen1220/jqzoom/issues"
+    },
+    "spm": {
+        "output": ["jqzoom.js"]
+    }
+}

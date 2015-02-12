@@ -1,0 +1,1241 @@
+[ 2014-06-19T15:26:07+08:00 ] 192.168.2.212 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012961s ]
+NOTIC: [8] Undefined index: cid E:\work\isweek-dev\Application\Home\Controller\CommonController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.001446s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 0 ) LIMIT 1   [ RunTime:0.000941s ]
+NOTIC: [8] Undefined index: perpage E:\work\isweek-dev\Application\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\Application\Home\Controller\IndexController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `sp_products` [ RunTime:0.001807s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sp_products` WHERE ( `audit` = 1 AND `status` = 1  ) LIMIT 1   [ RunTime:0.000616s ]
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined variable: pList E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 211 行.
+NOTIC: [8] Undefined variable: pListEnd E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 258 行.
+NOTIC: [8] Undefined variable: pListStart E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 320 行.
+NOTIC: [8] Undefined variable: pFirst E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 320 行.
+NOTIC: [8] Undefined variable: pPrev E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 320 行.
+SQL: SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1 AND `recommend` = 1 union all SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1 AND `recommend` = 0 ORDER BY `recommend` desc,`edit_time` desc,`audit_time` desc LIMIT 0, 2 [ RunTime:0.002466s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000589s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000894s ]
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.219132s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.219431s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.016393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016660s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010869s ]
+
+[ 2014-06-19T15:26:11+08:00 ] 192.168.2.212 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001846s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003058s ]
+SQL: SHOW COLUMNS FROM `sp_users` [ RunTime:0.001454s ]
+SQL: SELECT * FROM `sp_users` WHERE ( ID=1 ) LIMIT 1   [ RunTime:0.000928s ]
+SQL: SHOW COLUMNS FROM `sp_menu` [ RunTime:0.001310s ]
+SQL: SELECT * FROM `sp_menu` WHERE ( `parentid` = 0 ) AND ( `status` = 1 ) ORDER BY `listorder` ASC  [ RunTime:0.000839s ]
+SQL: SELECT * FROM `sp_menu` WHERE ( `parentid` = 286 ) AND ( `status` = 1 ) ORDER BY `listorder` ASC  [ RunTime:0.000956s ]
+SQL: SELECT * FROM `sp_menu` WHERE ( `parentid` = 290 ) AND ( `status` = 1 ) ORDER BY `listorder` ASC  [ RunTime:0.000857s ]
+SQL: SELECT * FROM `sp_menu` WHERE ( `parentid` = 291 ) AND ( `status` = 1 ) ORDER BY `listorder` ASC  [ RunTime:0.000918s ]
+SQL: SELECT * FROM `sp_menu` WHERE ( `parentid` = 292 ) AND ( `status` = 1 ) ORDER BY `listorder` ASC  [ RunTime:0.001056s ]
+SQL: SELECT * FROM `sp_menu` WHERE ( `parentid` = 297 ) AND ( `status` = 1 ) ORDER BY `listorder` ASC  [ RunTime:0.001005s ]
+SQL: SELECT * FROM `sp_menu` WHERE ( `parentid` = 239 ) AND ( `status` = 1 ) ORDER BY `listorder` ASC  [ RunTime:0.000941s ]
+SQL: SELECT * FROM `sp_menu` WHERE ( `parentid` = 252 ) AND ( `status` = 1 ) ORDER BY `listorder` ASC  [ RunTime:0.000964s ]
+SQL: SELECT * FROM `sp_menu` WHERE ( `parentid` = 254 ) AND ( `status` = 1 ) ORDER BY `listorder` ASC  [ RunTime:0.000999s ]
+SQL: SELECT * FROM `sp_menu` WHERE ( `parentid` = 298 ) AND ( `status` = 1 ) ORDER BY `listorder` ASC  [ RunTime:0.001024s ]
+SQL: SELECT * FROM `sp_menu` WHERE ( `parentid` = 51 ) AND ( `status` = 1 ) ORDER BY `listorder` ASC  [ RunTime:0.001212s ]
+SQL: SELECT * FROM `sp_menu` WHERE ( `parentid` = 285 ) AND ( `status` = 1 ) ORDER BY `listorder` ASC  [ RunTime:0.000822s ]
+SQL: SELECT * FROM `sp_menu` WHERE ( `parentid` = 546 ) AND ( `status` = 1 ) ORDER BY `listorder` ASC  [ RunTime:0.000908s ]
+SQL: SELECT * FROM `sp_menu` WHERE ( `parentid` = 556 ) AND ( `status` = 1 ) ORDER BY `listorder` ASC  [ RunTime:0.001053s ]
+SQL: SELECT * FROM `sp_menu` WHERE ( `parentid` = 245 ) AND ( `status` = 1 ) ORDER BY `listorder` ASC  [ RunTime:0.000854s ]
+SQL: SELECT * FROM `sp_menu` WHERE ( `parentid` = 545 ) AND ( `status` = 1 ) ORDER BY `listorder` ASC  [ RunTime:0.000818s ]
+SQL: SELECT * FROM `sp_menu` WHERE ( `parentid` = 560 ) AND ( `status` = 1 ) ORDER BY `listorder` ASC  [ RunTime:0.000933s ]
+SQL: SELECT * FROM `sp_menu` WHERE ( `parentid` = 562 ) AND ( `status` = 1 ) ORDER BY `listorder` ASC  [ RunTime:0.001017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000462s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000733s ]
+NOTIC: [8] Use of undefined constant user_login - assumed 'user_login' E:\work\isweek-dev\Application\Runtime\Cache\Admin\f97a46c30791f0f23c69a7f6d0fac24e.php 第 134 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.088508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088842s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001784s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002035s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003015s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003351s ]
+
+[ 2014-06-19T15:26:12+08:00 ] 192.168.2.212 /Public/Admin/css/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001913s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003181s ]
+ERR: 无法加载控制器:404
+
+[ 2014-06-19T15:26:12+08:00 ] 192.168.2.212 /Admin/Main/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003873s ]
+NOTIC: [2] mysql_get_server_info(): Access denied for user ''@'localhost' (using password: NO) E:\work\isweek-dev\Application\Admin\Controller\MainController.class.php 第 15 行.
+NOTIC: [2] mysql_get_server_info(): A link to the server could not be established E:\work\isweek-dev\Application\Admin\Controller\MainController.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000236s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000521s ]
+NOTIC: [8] Undefined variable: js_debug E:\work\isweek-dev\Application\Runtime\Cache\Admin\83baf3a0c62a22651344dbfdfcb1fd49.php 第 7 行.
+NOTIC: [8] Undefined variable: js_debug E:\work\isweek-dev\Application\Runtime\Cache\Admin\83baf3a0c62a22651344dbfdfcb1fd49.php 第 8 行.
+NOTIC: [8] Undefined variable: js_debug E:\work\isweek-dev\Application\Runtime\Cache\Admin\83baf3a0c62a22651344dbfdfcb1fd49.php 第 17 行.
+NOTIC: [8] Undefined variable: js_debug E:\work\isweek-dev\Application\Runtime\Cache\Admin\83baf3a0c62a22651344dbfdfcb1fd49.php 第 18 行.
+NOTIC: [8] Undefined variable: js_debug E:\work\isweek-dev\Application\Runtime\Cache\Admin\83baf3a0c62a22651344dbfdfcb1fd49.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056707s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056981s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003160s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003452s ]
+
+[ 2014-06-19T15:26:13+08:00 ] 192.168.2.212 /Public/Admin/css/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001830s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003333s ]
+ERR: 无法加载控制器:404
+
+[ 2014-06-19T15:26:17+08:00 ] 192.168.2.212 /Admin/Products/add/menuid/546
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001990s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002683s ]
+NOTIC: [2048] Declaration of Admin\Controller\ProductsController::listorders() should be compatible with that of Admin\Controller\AdminbaseController::listorders() E:\work\isweek-dev\Application\Admin\Controller\ProductsController.class.php 第 3 行.
+NOTIC: [2048] Declaration of Admin\Controller\ProductsController::show() should be compatible with that of Think\Controller::show() E:\work\isweek-dev\Application\Admin\Controller\ProductsController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `sp_users` [ RunTime:0.001696s ]
+SQL: SELECT * FROM `sp_users` WHERE ( ID=1 ) LIMIT 1   [ RunTime:0.001207s ]
+SQL: SHOW COLUMNS FROM `sp_products` [ RunTime:0.001835s ]
+NOTIC: [2048] Declaration of Admin\Model\TermsModel::_before_write() should be compatible with that of Think\Model::_before_write() E:\work\isweek-dev\Application\Admin\Model\TermsModel.class.php 第 260 行.
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.001108s ]
+SQL: SHOW COLUMNS FROM `sp_suppliers` [ RunTime:0.001154s ]
+SQL: SELECT `id`,`name` FROM `sp_suppliers` ORDER BY name ASC,listorder ASC  [ RunTime:0.000792s ]
+NOTIC: [8] Undefined index: category E:\work\isweek-dev\Application\Admin\Controller\ProductsController.class.php 第 303 行.
+SQL: SELECT * FROM `sp_terms` ORDER BY `listorder` asc  [ RunTime:0.001088s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000287s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000437s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\94ebc0d47859bcf913c7905c246eb6a6.php 第 79 行.
+NOTIC: [8] Use of undefined constant supplier_id - assumed 'supplier_id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\94ebc0d47859bcf913c7905c246eb6a6.php 第 79 行.
+NOTIC: [8] Undefined variable: products E:\work\isweek-dev\Application\Runtime\Cache\Admin\94ebc0d47859bcf913c7905c246eb6a6.php 第 79 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\94ebc0d47859bcf913c7905c246eb6a6.php 第 79 行.
+NOTIC: [8] Use of undefined constant supplier_id - assumed 'supplier_id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\94ebc0d47859bcf913c7905c246eb6a6.php 第 79 行.
+NOTIC: [8] Undefined variable: products E:\work\isweek-dev\Application\Runtime\Cache\Admin\94ebc0d47859bcf913c7905c246eb6a6.php 第 79 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\94ebc0d47859bcf913c7905c246eb6a6.php 第 79 行.
+NOTIC: [8] Use of undefined constant supplier_id - assumed 'supplier_id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\94ebc0d47859bcf913c7905c246eb6a6.php 第 79 行.
+NOTIC: [8] Undefined variable: products E:\work\isweek-dev\Application\Runtime\Cache\Admin\94ebc0d47859bcf913c7905c246eb6a6.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027410s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027564s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001049s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001706s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001871s ]
+
+[ 2014-06-19T15:26:32+08:00 ] 192.168.2.212 /Admin/Products/index/audit/2/menuid/556
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003926s ]
+NOTIC: [2048] Declaration of Admin\Controller\ProductsController::listorders() should be compatible with that of Admin\Controller\AdminbaseController::listorders() E:\work\isweek-dev\Application\Admin\Controller\ProductsController.class.php 第 3 行.
+NOTIC: [2048] Declaration of Admin\Controller\ProductsController::show() should be compatible with that of Think\Controller::show() E:\work\isweek-dev\Application\Admin\Controller\ProductsController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `sp_users` [ RunTime:0.001456s ]
+SQL: SELECT * FROM `sp_users` WHERE ( ID=1 ) LIMIT 1   [ RunTime:0.000944s ]
+SQL: SHOW COLUMNS FROM `sp_products` [ RunTime:0.001731s ]
+NOTIC: [2048] Declaration of Admin\Model\TermsModel::_before_write() should be compatible with that of Think\Model::_before_write() E:\work\isweek-dev\Application\Admin\Model\TermsModel.class.php 第 275 行.
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.001244s ]
+SQL: SHOW COLUMNS FROM `sp_suppliers` [ RunTime:0.001255s ]
+SQL: SELECT `id`,`name` FROM `sp_suppliers` ORDER BY name ASC,listorder ASC  [ RunTime:0.001129s ]
+SQL: SELECT COUNT(*) AS tp_count FROM sp_products p WHERE ( 1  AND p.audit = 2  ) LIMIT 1   [ RunTime:0.000896s ]
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+SQL: SELECT p.id AS `id`,`product_name`,`serial_no`,`images`,`categorys`,s.name AS `supplier_name`,`attachment`,`post_time`,`audit_time`,`edit_time`,`recommend`,p.status,p.listorder FROM sp_products p LEFT JOIN sp_suppliers s ON p.supplier_id=s.id  WHERE ( 1  AND p.audit = 2  ) ORDER BY p.post_time DESC,p.listorder ASC LIMIT 0,20   [ RunTime:0.001150s ]
+SQL: SELECT `name` FROM `sp_terms` WHERE ( `term_id` IN ('28','36') )  [ RunTime:0.000574s ]
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: category E:\work\isweek-dev\Application\Admin\Controller\ProductsController.class.php 第 303 行.
+SQL: SELECT * FROM `sp_terms` ORDER BY `listorder` asc  [ RunTime:0.001076s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000241s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000391s ]
+NOTIC: [8] Undefined index: start_time E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 42 行.
+NOTIC: [8] Undefined index: end_time E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 42 行.
+NOTIC: [8] Undefined index: keyword E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 50 行.
+NOTIC: [8] Use of undefined constant keyword_type - assumed 'keyword_type' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 52 行.
+NOTIC: [8] Undefined index: keyword_type E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 52 行.
+NOTIC: [8] Use of undefined constant keyword_type - assumed 'keyword_type' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 53 行.
+NOTIC: [8] Undefined index: keyword_type E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 53 行.
+NOTIC: [8] Use of undefined constant keyword_type - assumed 'keyword_type' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 54 行.
+NOTIC: [8] Undefined index: keyword_type E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 54 行.
+NOTIC: [8] Use of undefined constant keyword_type - assumed 'keyword_type' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 55 行.
+NOTIC: [8] Undefined index: keyword_type E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 55 行.
+NOTIC: [8] Use of undefined constant recommend - assumed 'recommend' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 62 行.
+NOTIC: [8] Undefined index: recommend E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 62 行.
+NOTIC: [8] Use of undefined constant recommend - assumed 'recommend' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 63 行.
+NOTIC: [8] Undefined index: recommend E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 63 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 73 行.
+NOTIC: [8] Use of undefined constant supplier - assumed 'supplier' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 73 行.
+NOTIC: [8] Undefined index: supplier E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 73 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 73 行.
+NOTIC: [8] Use of undefined constant supplier - assumed 'supplier' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 73 行.
+NOTIC: [8] Undefined index: supplier E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 73 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 73 行.
+NOTIC: [8] Use of undefined constant supplier - assumed 'supplier' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 73 行.
+NOTIC: [8] Undefined index: supplier E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 73 行.
+NOTIC: [8] Undefined variable: recommend E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 113 行.
+NOTIC: [8] Use of undefined constant attachment - assumed 'attachment' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Undefined variable: edit_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: delete_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: listorders_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 139 行.
+NOTIC: [8] Undefined variable: audit_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 140 行.
+NOTIC: [8] Undefined variable: audit_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 141 行.
+NOTIC: [8] Undefined variable: recommend_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 142 行.
+NOTIC: [8] Undefined variable: recommend_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 143 行.
+NOTIC: [8] Undefined variable: show_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 144 行.
+NOTIC: [8] Undefined variable: show_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 145 行.
+NOTIC: [8] Undefined variable: delete_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 146 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059715s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059867s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001085s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001782s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002013s ]
+
+[ 2014-06-19T15:26:39+08:00 ] 192.168.2.212 /Admin/products/edit/id/46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001798s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002750s ]
+NOTIC: [2048] Declaration of Admin\Controller\ProductsController::listorders() should be compatible with that of Admin\Controller\AdminbaseController::listorders() E:\work\isweek-dev\Application\Admin\Controller\ProductsController.class.php 第 3 行.
+NOTIC: [2048] Declaration of Admin\Controller\ProductsController::show() should be compatible with that of Think\Controller::show() E:\work\isweek-dev\Application\Admin\Controller\ProductsController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `sp_users` [ RunTime:0.001497s ]
+SQL: SELECT * FROM `sp_users` WHERE ( ID=1 ) LIMIT 1   [ RunTime:0.000797s ]
+SQL: SHOW COLUMNS FROM `sp_products` [ RunTime:0.001820s ]
+NOTIC: [2048] Declaration of Admin\Model\TermsModel::_before_write() should be compatible with that of Think\Model::_before_write() E:\work\isweek-dev\Application\Admin\Model\TermsModel.class.php 第 275 行.
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.001420s ]
+SQL: SHOW COLUMNS FROM `sp_suppliers` [ RunTime:0.001275s ]
+SQL: SELECT `id`,`name` FROM `sp_suppliers` ORDER BY name ASC,listorder ASC  [ RunTime:0.000933s ]
+NOTIC: [8] Undefined index: category E:\work\isweek-dev\Application\Admin\Controller\ProductsController.class.php 第 303 行.
+SQL: SELECT * FROM `sp_terms` ORDER BY `listorder` asc  [ RunTime:0.001342s ]
+SQL: SELECT * FROM `sp_products` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.001382s ]
+SQL: SELECT `id`,`name` FROM `sp_suppliers` ORDER BY name ASC,listorder ASC  [ RunTime:0.000683s ]
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.001258s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` IN ('28','36') )  [ RunTime:0.001288s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000300s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000459s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\ff176247c55353f627391c57056a8ac1.php 第 74 行.
+NOTIC: [8] Use of undefined constant supplier_id - assumed 'supplier_id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\ff176247c55353f627391c57056a8ac1.php 第 74 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\ff176247c55353f627391c57056a8ac1.php 第 74 行.
+NOTIC: [8] Use of undefined constant supplier_id - assumed 'supplier_id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\ff176247c55353f627391c57056a8ac1.php 第 74 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\ff176247c55353f627391c57056a8ac1.php 第 74 行.
+NOTIC: [8] Use of undefined constant supplier_id - assumed 'supplier_id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\ff176247c55353f627391c57056a8ac1.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030058s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030223s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001379s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001528s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001898s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002082s ]
+
+[ 2014-06-19T15:26:47+08:00 ] 192.168.2.212 /index.php?a=swfupload&c=asset&m=admin&args=1,jpg|jpeg|gif|png|bmp,1,,,1&module=&catid=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001699s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003122s ]
+NOTIC: [8] Undefined index:  E:\work\isweek-dev\Application\Admin\Controller\AssetController.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `sp_attachment` [ RunTime:0.000812s ]
+ERR: 1146:Table 'isweek.sp_attachment' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sp_attachment`
+NOTIC: [8] Undefined variable: att E:\work\isweek-dev\Application\Admin\Controller\AssetController.class.php 第 317 行.
+NOTIC: [8] Use of undefined constant CONFIG_QTUPLOADMAXSIZE - assumed 'CONFIG_QTUPLOADMAXSIZE' E:\work\isweek-dev\Application\Admin\Controller\AssetController.class.php 第 86 行.
+NOTIC: [8] Undefined variable: div_status E:\work\isweek-dev\Application\Admin\Controller\AssetController.class.php 第 90 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000424s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000695s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034994s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035285s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001553s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001795s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003200s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003480s ]
+
+[ 2014-06-19T15:26:47+08:00 ] 192.168.2.212 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001718s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002691s ]
+NOTIC: [8] Undefined index: cid E:\work\isweek-dev\Application\Home\Controller\CommonController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.001500s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 0 ) LIMIT 1   [ RunTime:0.000998s ]
+NOTIC: [8] Undefined index: perpage E:\work\isweek-dev\Application\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\Application\Home\Controller\IndexController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `sp_products` [ RunTime:0.001684s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sp_products` WHERE ( `audit` = 1 AND `status` = 1  ) LIMIT 1   [ RunTime:0.000948s ]
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined variable: pList E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 211 行.
+NOTIC: [8] Undefined variable: pListEnd E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 258 行.
+NOTIC: [8] Undefined variable: pListStart E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 320 行.
+NOTIC: [8] Undefined variable: pFirst E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 320 行.
+NOTIC: [8] Undefined variable: pPrev E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 320 行.
+SQL: SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1 AND `recommend` = 1 union all SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1 AND `recommend` = 0 ORDER BY `recommend` desc,`edit_time` desc,`audit_time` desc LIMIT 0, 2 [ RunTime:0.001580s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000214s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000331s ]
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041540s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041707s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001096s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001216s ]
+
+[ 2014-06-19T15:26:49+08:00 ] 192.168.2.212 /index.php?a=swfupload&c=asset&m=admin&args=10,gif|jpg|jpeg|png|bmp,0&module=&catid=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001729s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002739s ]
+NOTIC: [8] Undefined index:  E:\work\isweek-dev\Application\Admin\Controller\AssetController.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `sp_attachment` [ RunTime:0.000844s ]
+ERR: 1146:Table 'isweek.sp_attachment' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sp_attachment`
+NOTIC: [8] Undefined variable: att E:\work\isweek-dev\Application\Admin\Controller\AssetController.class.php 第 317 行.
+NOTIC: [8] Use of undefined constant CONFIG_QTUPLOADMAXSIZE - assumed 'CONFIG_QTUPLOADMAXSIZE' E:\work\isweek-dev\Application\Admin\Controller\AssetController.class.php 第 86 行.
+NOTIC: [8] Undefined variable: div_status E:\work\isweek-dev\Application\Admin\Controller\AssetController.class.php 第 90 行.
+NOTIC: [8] Undefined offset: 5 E:\work\isweek-dev\Application\Admin\Controller\AssetController.class.php 第 92 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000449s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000756s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038491s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039427s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002072s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002346s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002819s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003103s ]
+
+[ 2014-06-19T15:26:50+08:00 ] 192.168.2.212 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004202s ]
+NOTIC: [8] Undefined index: cid E:\work\isweek-dev\Application\Home\Controller\CommonController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.001415s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 0 ) LIMIT 1   [ RunTime:0.001119s ]
+NOTIC: [8] Undefined index: perpage E:\work\isweek-dev\Application\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\Application\Home\Controller\IndexController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `sp_products` [ RunTime:0.002183s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sp_products` WHERE ( `audit` = 1 AND `status` = 1  ) LIMIT 1   [ RunTime:0.000638s ]
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined variable: pList E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 211 行.
+NOTIC: [8] Undefined variable: pListEnd E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 258 行.
+NOTIC: [8] Undefined variable: pListStart E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 320 行.
+NOTIC: [8] Undefined variable: pFirst E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 320 行.
+NOTIC: [8] Undefined variable: pPrev E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 320 行.
+SQL: SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1 AND `recommend` = 1 union all SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1 AND `recommend` = 0 ORDER BY `recommend` desc,`edit_time` desc,`audit_time` desc LIMIT 0, 2 [ RunTime:0.001004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000327s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000496s ]
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040678s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040827s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001702s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001866s ]
+
+[ 2014-06-19T15:27:12+08:00 ] 192.168.2.212 /Admin/asset/swfupload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001885s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002706s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\work\isweek-dev\ThinkPHP\Library\Think\Upload.class.php 第 169 行.
+
+[ 2014-06-19T15:27:23+08:00 ] 192.168.2.212 /index.php?a=swfupload&c=asset&m=admin&args=10,gif|jpg|jpeg|png|bmp,0&module=&catid=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003102s ]
+NOTIC: [8] Undefined index:  E:\work\isweek-dev\Application\Admin\Controller\AssetController.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `sp_attachment` [ RunTime:0.000869s ]
+ERR: 1146:Table 'isweek.sp_attachment' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sp_attachment`
+NOTIC: [8] Undefined variable: att E:\work\isweek-dev\Application\Admin\Controller\AssetController.class.php 第 317 行.
+NOTIC: [8] Use of undefined constant CONFIG_QTUPLOADMAXSIZE - assumed 'CONFIG_QTUPLOADMAXSIZE' E:\work\isweek-dev\Application\Admin\Controller\AssetController.class.php 第 86 行.
+NOTIC: [8] Undefined variable: div_status E:\work\isweek-dev\Application\Admin\Controller\AssetController.class.php 第 90 行.
+NOTIC: [8] Undefined offset: 5 E:\work\isweek-dev\Application\Admin\Controller\AssetController.class.php 第 92 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000269s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029211s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029565s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001574s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001696s ]
+
+[ 2014-06-19T15:27:24+08:00 ] 192.168.2.212 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002618s ]
+NOTIC: [8] Undefined index: cid E:\work\isweek-dev\Application\Home\Controller\CommonController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.001563s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 0 ) LIMIT 1   [ RunTime:0.000743s ]
+NOTIC: [8] Undefined index: perpage E:\work\isweek-dev\Application\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\Application\Home\Controller\IndexController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `sp_products` [ RunTime:0.001799s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sp_products` WHERE ( `audit` = 1 AND `status` = 1  ) LIMIT 1   [ RunTime:0.000602s ]
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined variable: pList E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 211 行.
+NOTIC: [8] Undefined variable: pListEnd E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 258 行.
+NOTIC: [8] Undefined variable: pListStart E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 320 行.
+NOTIC: [8] Undefined variable: pFirst E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 320 行.
+NOTIC: [8] Undefined variable: pPrev E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 320 行.
+SQL: SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1 AND `recommend` = 1 union all SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1 AND `recommend` = 0 ORDER BY `recommend` desc,`edit_time` desc,`audit_time` desc LIMIT 0, 2 [ RunTime:0.001571s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000325s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000561s ]
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041204s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000924s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001891s ]
+
+[ 2014-06-19T15:27:26+08:00 ] 192.168.2.212 /Admin/asset/swfupload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002719s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\work\isweek-dev\ThinkPHP\Library\Think\Upload.class.php 第 169 行.
+
+[ 2014-06-19T15:27:31+08:00 ] 192.168.2.212 /Admin/products/edit_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005870s ]
+NOTIC: [2048] Declaration of Admin\Controller\ProductsController::listorders() should be compatible with that of Admin\Controller\AdminbaseController::listorders() E:\work\isweek-dev\Application\Admin\Controller\ProductsController.class.php 第 3 行.
+NOTIC: [2048] Declaration of Admin\Controller\ProductsController::show() should be compatible with that of Think\Controller::show() E:\work\isweek-dev\Application\Admin\Controller\ProductsController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `sp_users` [ RunTime:0.001333s ]
+SQL: SELECT * FROM `sp_users` WHERE ( ID=1 ) LIMIT 1   [ RunTime:0.000856s ]
+SQL: SHOW COLUMNS FROM `sp_products` [ RunTime:0.001544s ]
+NOTIC: [2048] Declaration of Admin\Model\TermsModel::_before_write() should be compatible with that of Think\Model::_before_write() E:\work\isweek-dev\Application\Admin\Model\TermsModel.class.php 第 275 行.
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.001049s ]
+SQL: SHOW COLUMNS FROM `sp_suppliers` [ RunTime:0.001025s ]
+SQL: SELECT `id`,`name` FROM `sp_suppliers` ORDER BY name ASC,listorder ASC  [ RunTime:0.000514s ]
+ERR: 不存在的图像文件
+
+[ 2014-06-19T15:27:49+08:00 ] 192.168.2.212 /index.php?a=swfupload&c=asset&m=admin&args=10,jpg|jpeg|png|bmp,0&module=&catid=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004658s ]
+NOTIC: [8] Undefined index:  E:\work\isweek-dev\Application\Admin\Controller\AssetController.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `sp_attachment` [ RunTime:0.000842s ]
+ERR: 1146:Table 'isweek.sp_attachment' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sp_attachment`
+NOTIC: [8] Undefined variable: att E:\work\isweek-dev\Application\Admin\Controller\AssetController.class.php 第 317 行.
+NOTIC: [8] Use of undefined constant CONFIG_QTUPLOADMAXSIZE - assumed 'CONFIG_QTUPLOADMAXSIZE' E:\work\isweek-dev\Application\Admin\Controller\AssetController.class.php 第 86 行.
+NOTIC: [8] Undefined variable: div_status E:\work\isweek-dev\Application\Admin\Controller\AssetController.class.php 第 90 行.
+NOTIC: [8] Undefined offset: 5 E:\work\isweek-dev\Application\Admin\Controller\AssetController.class.php 第 92 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000255s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014936s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015051s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001314s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001892s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002013s ]
+
+[ 2014-06-19T15:27:49+08:00 ] 192.168.2.212 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002680s ]
+NOTIC: [8] Undefined index: cid E:\work\isweek-dev\Application\Home\Controller\CommonController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.001394s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 0 ) LIMIT 1   [ RunTime:0.001079s ]
+NOTIC: [8] Undefined index: perpage E:\work\isweek-dev\Application\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\Application\Home\Controller\IndexController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `sp_products` [ RunTime:0.001790s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sp_products` WHERE ( `audit` = 1 AND `status` = 1  ) LIMIT 1   [ RunTime:0.001039s ]
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined variable: pList E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 211 行.
+NOTIC: [8] Undefined variable: pListEnd E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 258 行.
+NOTIC: [8] Undefined variable: pListStart E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 320 行.
+NOTIC: [8] Undefined variable: pFirst E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 320 行.
+NOTIC: [8] Undefined variable: pPrev E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 320 行.
+SQL: SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1 AND `recommend` = 1 union all SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1 AND `recommend` = 0 ORDER BY `recommend` desc,`edit_time` desc,`audit_time` desc LIMIT 0, 2 [ RunTime:0.001558s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000216s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000335s ]
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040193s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001290s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001427s ]
+
+[ 2014-06-19T15:27:51+08:00 ] 192.168.2.212 /Admin/asset/swfupload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001708s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002817s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\work\isweek-dev\ThinkPHP\Library\Think\Upload.class.php 第 169 行.
+
+[ 2014-06-19T15:27:54+08:00 ] 192.168.2.212 /index.php?a=swfupload&c=asset&m=admin&args=10,jpg|jpeg|png|bmp,0&module=&catid=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005814s ]
+NOTIC: [8] Undefined index:  E:\work\isweek-dev\Application\Admin\Controller\AssetController.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `sp_attachment` [ RunTime:0.000844s ]
+ERR: 1146:Table 'isweek.sp_attachment' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sp_attachment`
+NOTIC: [8] Undefined variable: att E:\work\isweek-dev\Application\Admin\Controller\AssetController.class.php 第 317 行.
+NOTIC: [8] Use of undefined constant CONFIG_QTUPLOADMAXSIZE - assumed 'CONFIG_QTUPLOADMAXSIZE' E:\work\isweek-dev\Application\Admin\Controller\AssetController.class.php 第 86 行.
+NOTIC: [8] Undefined variable: div_status E:\work\isweek-dev\Application\Admin\Controller\AssetController.class.php 第 90 行.
+NOTIC: [8] Undefined offset: 5 E:\work\isweek-dev\Application\Admin\Controller\AssetController.class.php 第 92 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000261s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015616s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015732s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001321s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001773s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001885s ]
+
+[ 2014-06-19T15:27:55+08:00 ] 192.168.2.212 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005420s ]
+NOTIC: [8] Undefined index: cid E:\work\isweek-dev\Application\Home\Controller\CommonController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.001402s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 0 ) LIMIT 1   [ RunTime:0.000836s ]
+NOTIC: [8] Undefined index: perpage E:\work\isweek-dev\Application\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\Application\Home\Controller\IndexController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `sp_products` [ RunTime:0.001782s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sp_products` WHERE ( `audit` = 1 AND `status` = 1  ) LIMIT 1   [ RunTime:0.000610s ]
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined variable: pList E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 211 行.
+NOTIC: [8] Undefined variable: pListEnd E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 258 行.
+NOTIC: [8] Undefined variable: pListStart E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 320 行.
+NOTIC: [8] Undefined variable: pFirst E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 320 行.
+NOTIC: [8] Undefined variable: pPrev E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 320 行.
+SQL: SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1 AND `recommend` = 1 union all SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1 AND `recommend` = 0 ORDER BY `recommend` desc,`edit_time` desc,`audit_time` desc LIMIT 0, 2 [ RunTime:0.001617s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000327s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000493s ]
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044951s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045119s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001938s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002083s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002802s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003002s ]
+
+[ 2014-06-19T15:27:58+08:00 ] 192.168.2.212 /Admin/asset/swfupload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004659s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\work\isweek-dev\ThinkPHP\Library\Think\Upload.class.php 第 169 行.
+
+[ 2014-06-19T15:28:00+08:00 ] 192.168.2.212 /index.php?a=swfupload&c=asset&m=admin&args=10,jpg|jpeg|png|bmp,0&module=&catid=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002860s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004909s ]
+NOTIC: [8] Undefined index:  E:\work\isweek-dev\Application\Admin\Controller\AssetController.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `sp_attachment` [ RunTime:0.000838s ]
+ERR: 1146:Table 'isweek.sp_attachment' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sp_attachment`
+NOTIC: [8] Undefined variable: att E:\work\isweek-dev\Application\Admin\Controller\AssetController.class.php 第 317 行.
+NOTIC: [8] Use of undefined constant CONFIG_QTUPLOADMAXSIZE - assumed 'CONFIG_QTUPLOADMAXSIZE' E:\work\isweek-dev\Application\Admin\Controller\AssetController.class.php 第 86 行.
+NOTIC: [8] Undefined variable: div_status E:\work\isweek-dev\Application\Admin\Controller\AssetController.class.php 第 90 行.
+NOTIC: [8] Undefined offset: 5 E:\work\isweek-dev\Application\Admin\Controller\AssetController.class.php 第 92 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000260s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015769s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001381s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001796s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001917s ]
+
+[ 2014-06-19T15:28:01+08:00 ] 192.168.2.212 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005053s ]
+NOTIC: [8] Undefined index: cid E:\work\isweek-dev\Application\Home\Controller\CommonController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.001410s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 0 ) LIMIT 1   [ RunTime:0.000828s ]
+NOTIC: [8] Undefined index: perpage E:\work\isweek-dev\Application\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\Application\Home\Controller\IndexController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `sp_products` [ RunTime:0.001281s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sp_products` WHERE ( `audit` = 1 AND `status` = 1  ) LIMIT 1   [ RunTime:0.000657s ]
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined variable: pList E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 211 行.
+NOTIC: [8] Undefined variable: pListEnd E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 258 行.
+NOTIC: [8] Undefined variable: pListStart E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 320 行.
+NOTIC: [8] Undefined variable: pFirst E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 320 行.
+NOTIC: [8] Undefined variable: pPrev E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 320 行.
+SQL: SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1 AND `recommend` = 1 union all SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1 AND `recommend` = 0 ORDER BY `recommend` desc,`edit_time` desc,`audit_time` desc LIMIT 0, 2 [ RunTime:0.001265s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000216s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000333s ]
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028796s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028901s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001551s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001658s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001844s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002065s ]
+
+[ 2014-06-19T15:28:03+08:00 ] 192.168.2.212 /Admin/asset/swfupload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005087s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\work\isweek-dev\ThinkPHP\Library\Think\Upload.class.php 第 169 行.
+
+[ 2014-06-19T15:28:23+08:00 ] 192.168.2.212 /Admin/products/add_post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003781s ]
+NOTIC: [2048] Declaration of Admin\Controller\ProductsController::listorders() should be compatible with that of Admin\Controller\AdminbaseController::listorders() E:\work\isweek-dev\Application\Admin\Controller\ProductsController.class.php 第 3 行.
+NOTIC: [2048] Declaration of Admin\Controller\ProductsController::show() should be compatible with that of Think\Controller::show() E:\work\isweek-dev\Application\Admin\Controller\ProductsController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `sp_users` [ RunTime:0.001329s ]
+SQL: SELECT * FROM `sp_users` WHERE ( ID=1 ) LIMIT 1   [ RunTime:0.000843s ]
+SQL: SHOW COLUMNS FROM `sp_products` [ RunTime:0.001476s ]
+NOTIC: [2048] Declaration of Admin\Model\TermsModel::_before_write() should be compatible with that of Think\Model::_before_write() E:\work\isweek-dev\Application\Admin\Model\TermsModel.class.php 第 275 行.
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.001211s ]
+SQL: SHOW COLUMNS FROM `sp_suppliers` [ RunTime:0.000997s ]
+SQL: SELECT `id`,`name` FROM `sp_suppliers` ORDER BY name ASC,listorder ASC  [ RunTime:0.000517s ]
+SQL: INSERT INTO `sp_products` (`supplier_id`,`product_name`,`serial_no`,`keywords`,`images`,`categorys`,`features`,`description`,`abstract`,`attachment`,`post_member`,`post_time`,`audit`) VALUES (12,'sdfsdf','sdfsdf','sdfsdfs','[{\"url\":\"\\/Uploads\\/20140619\\/53a290f790c0e.jpg\",\"alt\":\"54c06b5570aa3f87098a9ddb800ccc41\"},{\"url\":\"\\/Uploads\\/20140619\\/53a290fe7ff54.jpg\",\"alt\":\"292c12ed1dbaff7414c3b3ba662f7af1\"},{\"url\":\"\\/Uploads\\/20140619\\/53a29103ad4ca.jpg\",\"alt\":\"5c5622693a4845c59c71fa5475d11bf6\"}]',',56,','sdfsdfsdf','<p>sdfsdfsadf</p>','sdfsdfsadf','',1,1403162777,2) [ RunTime:0.001155s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( term_id=56 ) LIMIT 1   [ RunTime:0.000934s ]
+SQL: UPDATE `sp_terms` SET `count`=count+1 WHERE ( `term_id` IN ('46','52','56') ) [ RunTime:0.000913s ]
+NOTIC: [8] Undefined index: data E:\work\isweek-dev\Application\Admin\Controller\AppframeController.class.php 第 62 行.
+
+[ 2014-06-19T15:28:24+08:00 ] 192.168.2.212 /Admin/products/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001991s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004734s ]
+NOTIC: [2048] Declaration of Admin\Controller\ProductsController::listorders() should be compatible with that of Admin\Controller\AdminbaseController::listorders() E:\work\isweek-dev\Application\Admin\Controller\ProductsController.class.php 第 3 行.
+NOTIC: [2048] Declaration of Admin\Controller\ProductsController::show() should be compatible with that of Think\Controller::show() E:\work\isweek-dev\Application\Admin\Controller\ProductsController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `sp_users` [ RunTime:0.001424s ]
+SQL: SELECT * FROM `sp_users` WHERE ( ID=1 ) LIMIT 1   [ RunTime:0.001372s ]
+SQL: SHOW COLUMNS FROM `sp_products` [ RunTime:0.001822s ]
+NOTIC: [2048] Declaration of Admin\Model\TermsModel::_before_write() should be compatible with that of Think\Model::_before_write() E:\work\isweek-dev\Application\Admin\Model\TermsModel.class.php 第 275 行.
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.001200s ]
+SQL: SHOW COLUMNS FROM `sp_suppliers` [ RunTime:0.000891s ]
+SQL: SELECT `id`,`name` FROM `sp_suppliers` ORDER BY name ASC,listorder ASC  [ RunTime:0.000697s ]
+SQL: SELECT COUNT(*) AS tp_count FROM sp_products p WHERE ( 1  ) LIMIT 1   [ RunTime:0.000760s ]
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+SQL: SELECT p.id AS `id`,`product_name`,`serial_no`,`images`,`categorys`,s.name AS `supplier_name`,`attachment`,`post_time`,`audit_time`,`edit_time`,`recommend`,p.status,p.listorder FROM sp_products p LEFT JOIN sp_suppliers s ON p.supplier_id=s.id  WHERE ( 1  ) ORDER BY p.post_time DESC,p.listorder ASC LIMIT 0,20   [ RunTime:0.002001s ]
+SQL: SELECT `name` FROM `sp_terms` WHERE ( `term_id` IN ('56') )  [ RunTime:0.000794s ]
+SQL: SELECT `name` FROM `sp_terms` WHERE ( `term_id` IN ('42') )  [ RunTime:0.000671s ]
+SQL: SELECT `name` FROM `sp_terms` WHERE ( `term_id` IN ('28','36') )  [ RunTime:0.000748s ]
+SQL: SELECT `name` FROM `sp_terms` WHERE ( `term_id` IN ('38','42') )  [ RunTime:0.000779s ]
+SQL: SELECT `name` FROM `sp_terms` WHERE ( `term_id` IN ('60') )  [ RunTime:0.000774s ]
+SQL: SELECT `name` FROM `sp_terms` WHERE ( `term_id` IN ('58') )  [ RunTime:0.000860s ]
+SQL: SELECT `name` FROM `sp_terms` WHERE ( `term_id` IN ('58') )  [ RunTime:0.000302s ]
+SQL: SELECT `name` FROM `sp_terms` WHERE ( `term_id` IN ('56') )  [ RunTime:0.000362s ]
+SQL: SELECT `name` FROM `sp_terms` WHERE ( `term_id` IN ('52') )  [ RunTime:0.000788s ]
+SQL: SELECT `name` FROM `sp_terms` WHERE ( `term_id` IN ('52') )  [ RunTime:0.000379s ]
+SQL: SELECT `name` FROM `sp_terms` WHERE ( `term_id` IN ('46') )  [ RunTime:0.000357s ]
+SQL: SELECT `name` FROM `sp_terms` WHERE ( `term_id` IN ('2') )  [ RunTime:0.000789s ]
+SQL: SELECT `name` FROM `sp_terms` WHERE ( `term_id` IN ('4') )  [ RunTime:0.000376s ]
+SQL: SELECT `name` FROM `sp_terms` WHERE ( `term_id` IN ('4') )  [ RunTime:0.000385s ]
+SQL: SELECT `name` FROM `sp_terms` WHERE ( `term_id` IN ('16','12') )  [ RunTime:0.000952s ]
+SQL: SELECT `name` FROM `sp_terms` WHERE ( `term_id` IN ('2') )  [ RunTime:0.000560s ]
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: category E:\work\isweek-dev\Application\Admin\Controller\ProductsController.class.php 第 303 行.
+SQL: SELECT * FROM `sp_terms` ORDER BY `listorder` asc  [ RunTime:0.001474s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000245s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000441s ]
+NOTIC: [8] Undefined index: start_time E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 42 行.
+NOTIC: [8] Undefined index: end_time E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 42 行.
+NOTIC: [8] Undefined index: keyword E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 50 行.
+NOTIC: [8] Use of undefined constant keyword_type - assumed 'keyword_type' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 52 行.
+NOTIC: [8] Undefined index: keyword_type E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 52 行.
+NOTIC: [8] Use of undefined constant keyword_type - assumed 'keyword_type' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 53 行.
+NOTIC: [8] Undefined index: keyword_type E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 53 行.
+NOTIC: [8] Use of undefined constant keyword_type - assumed 'keyword_type' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 54 行.
+NOTIC: [8] Undefined index: keyword_type E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 54 行.
+NOTIC: [8] Use of undefined constant keyword_type - assumed 'keyword_type' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 55 行.
+NOTIC: [8] Undefined index: keyword_type E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 55 行.
+NOTIC: [8] Use of undefined constant recommend - assumed 'recommend' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 62 行.
+NOTIC: [8] Undefined index: recommend E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 62 行.
+NOTIC: [8] Use of undefined constant recommend - assumed 'recommend' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 63 行.
+NOTIC: [8] Undefined index: recommend E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 63 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 73 行.
+NOTIC: [8] Use of undefined constant supplier - assumed 'supplier' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 73 行.
+NOTIC: [8] Undefined index: supplier E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 73 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 73 行.
+NOTIC: [8] Use of undefined constant supplier - assumed 'supplier' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 73 行.
+NOTIC: [8] Undefined index: supplier E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 73 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 73 行.
+NOTIC: [8] Use of undefined constant supplier - assumed 'supplier' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 73 行.
+NOTIC: [8] Undefined index: supplier E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 73 行.
+NOTIC: [8] Undefined variable: recommend E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 113 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Undefined variable: edit_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: delete_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: recommend E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 113 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Undefined variable: edit_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: delete_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: recommend E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 113 行.
+NOTIC: [8] Use of undefined constant attachment - assumed 'attachment' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Undefined variable: edit_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: delete_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: recommend E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 113 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Undefined variable: edit_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: delete_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: recommend E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 113 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Undefined variable: edit_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: delete_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: recommend E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 113 行.
+NOTIC: [8] Use of undefined constant attachment - assumed 'attachment' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Undefined variable: edit_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: delete_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: recommend E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 113 行.
+NOTIC: [8] Use of undefined constant attachment - assumed 'attachment' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Undefined variable: edit_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: delete_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: recommend E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 113 行.
+NOTIC: [8] Use of undefined constant attachment - assumed 'attachment' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Undefined variable: edit_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: delete_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: recommend E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 113 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Undefined variable: edit_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: delete_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: recommend E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 113 行.
+NOTIC: [8] Use of undefined constant attachment - assumed 'attachment' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Undefined variable: edit_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: delete_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: recommend E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 113 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Undefined variable: edit_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: delete_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: recommend E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 113 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Undefined variable: edit_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: delete_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: recommend E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 113 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Undefined variable: edit_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: delete_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: recommend E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 113 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Undefined variable: edit_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: delete_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: recommend E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 113 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Undefined variable: edit_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: delete_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: recommend E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 113 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Undefined variable: edit_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: delete_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: listorders_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 139 行.
+NOTIC: [8] Undefined variable: audit_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 140 行.
+NOTIC: [8] Undefined variable: audit_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 141 行.
+NOTIC: [8] Undefined variable: recommend_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 142 行.
+NOTIC: [8] Undefined variable: recommend_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 143 行.
+NOTIC: [8] Undefined variable: show_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 144 行.
+NOTIC: [8] Undefined variable: show_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 145 行.
+NOTIC: [8] Undefined variable: delete_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 146 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056920s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057102s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001332s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001547s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002690s ]
+
+[ 2014-06-19T15:28:26+08:00 ] 192.168.2.212 /Admin/Products
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001777s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003049s ]
+NOTIC: [2048] Declaration of Admin\Controller\ProductsController::listorders() should be compatible with that of Admin\Controller\AdminbaseController::listorders() E:\work\isweek-dev\Application\Admin\Controller\ProductsController.class.php 第 3 行.
+NOTIC: [2048] Declaration of Admin\Controller\ProductsController::show() should be compatible with that of Think\Controller::show() E:\work\isweek-dev\Application\Admin\Controller\ProductsController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `sp_users` [ RunTime:0.001482s ]
+SQL: SELECT * FROM `sp_users` WHERE ( ID=1 ) LIMIT 1   [ RunTime:0.001295s ]
+SQL: SHOW COLUMNS FROM `sp_products` [ RunTime:0.002172s ]
+NOTIC: [2048] Declaration of Admin\Model\TermsModel::_before_write() should be compatible with that of Think\Model::_before_write() E:\work\isweek-dev\Application\Admin\Model\TermsModel.class.php 第 275 行.
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.001107s ]
+SQL: SHOW COLUMNS FROM `sp_suppliers` [ RunTime:0.001266s ]
+SQL: SELECT `id`,`name` FROM `sp_suppliers` ORDER BY name ASC,listorder ASC  [ RunTime:0.000663s ]
+SQL: SELECT COUNT(*) AS tp_count FROM sp_products p WHERE ( 1  ) LIMIT 1   [ RunTime:0.000748s ]
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+SQL: SELECT p.id AS `id`,`product_name`,`serial_no`,`images`,`categorys`,s.name AS `supplier_name`,`attachment`,`post_time`,`audit_time`,`edit_time`,`recommend`,p.status,p.listorder FROM sp_products p LEFT JOIN sp_suppliers s ON p.supplier_id=s.id  WHERE ( 1  ) ORDER BY p.post_time DESC,p.listorder ASC LIMIT 0,20   [ RunTime:0.001664s ]
+SQL: SELECT `name` FROM `sp_terms` WHERE ( `term_id` IN ('56') )  [ RunTime:0.000398s ]
+SQL: SELECT `name` FROM `sp_terms` WHERE ( `term_id` IN ('42') )  [ RunTime:0.000696s ]
+SQL: SELECT `name` FROM `sp_terms` WHERE ( `term_id` IN ('28','36') )  [ RunTime:0.000762s ]
+SQL: SELECT `name` FROM `sp_terms` WHERE ( `term_id` IN ('38','42') )  [ RunTime:0.000766s ]
+SQL: SELECT `name` FROM `sp_terms` WHERE ( `term_id` IN ('60') )  [ RunTime:0.000661s ]
+SQL: SELECT `name` FROM `sp_terms` WHERE ( `term_id` IN ('58') )  [ RunTime:0.000569s ]
+SQL: SELECT `name` FROM `sp_terms` WHERE ( `term_id` IN ('58') )  [ RunTime:0.000549s ]
+SQL: SELECT `name` FROM `sp_terms` WHERE ( `term_id` IN ('56') )  [ RunTime:0.000348s ]
+SQL: SELECT `name` FROM `sp_terms` WHERE ( `term_id` IN ('52') )  [ RunTime:0.000355s ]
+SQL: SELECT `name` FROM `sp_terms` WHERE ( `term_id` IN ('52') )  [ RunTime:0.000378s ]
+SQL: SELECT `name` FROM `sp_terms` WHERE ( `term_id` IN ('46') )  [ RunTime:0.000404s ]
+SQL: SELECT `name` FROM `sp_terms` WHERE ( `term_id` IN ('2') )  [ RunTime:0.000628s ]
+SQL: SELECT `name` FROM `sp_terms` WHERE ( `term_id` IN ('4') )  [ RunTime:0.000309s ]
+SQL: SELECT `name` FROM `sp_terms` WHERE ( `term_id` IN ('4') )  [ RunTime:0.000290s ]
+SQL: SELECT `name` FROM `sp_terms` WHERE ( `term_id` IN ('16','12') )  [ RunTime:0.000491s ]
+SQL: SELECT `name` FROM `sp_terms` WHERE ( `term_id` IN ('2') )  [ RunTime:0.000620s ]
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: category E:\work\isweek-dev\Application\Admin\Controller\ProductsController.class.php 第 303 行.
+SQL: SELECT * FROM `sp_terms` ORDER BY `listorder` asc  [ RunTime:0.001063s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000256s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000498s ]
+NOTIC: [8] Undefined index: start_time E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 42 行.
+NOTIC: [8] Undefined index: end_time E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 42 行.
+NOTIC: [8] Undefined index: keyword E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 50 行.
+NOTIC: [8] Use of undefined constant keyword_type - assumed 'keyword_type' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 52 行.
+NOTIC: [8] Undefined index: keyword_type E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 52 行.
+NOTIC: [8] Use of undefined constant keyword_type - assumed 'keyword_type' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 53 行.
+NOTIC: [8] Undefined index: keyword_type E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 53 行.
+NOTIC: [8] Use of undefined constant keyword_type - assumed 'keyword_type' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 54 行.
+NOTIC: [8] Undefined index: keyword_type E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 54 行.
+NOTIC: [8] Use of undefined constant keyword_type - assumed 'keyword_type' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 55 行.
+NOTIC: [8] Undefined index: keyword_type E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 55 行.
+NOTIC: [8] Use of undefined constant recommend - assumed 'recommend' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 62 行.
+NOTIC: [8] Undefined index: recommend E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 62 行.
+NOTIC: [8] Use of undefined constant recommend - assumed 'recommend' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 63 行.
+NOTIC: [8] Undefined index: recommend E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 63 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 73 行.
+NOTIC: [8] Use of undefined constant supplier - assumed 'supplier' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 73 行.
+NOTIC: [8] Undefined index: supplier E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 73 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 73 行.
+NOTIC: [8] Use of undefined constant supplier - assumed 'supplier' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 73 行.
+NOTIC: [8] Undefined index: supplier E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 73 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 73 行.
+NOTIC: [8] Use of undefined constant supplier - assumed 'supplier' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 73 行.
+NOTIC: [8] Undefined index: supplier E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 73 行.
+NOTIC: [8] Undefined variable: recommend E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 113 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Undefined variable: edit_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: delete_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: recommend E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 113 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Undefined variable: edit_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: delete_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: recommend E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 113 行.
+NOTIC: [8] Use of undefined constant attachment - assumed 'attachment' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Undefined variable: edit_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: delete_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: recommend E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 113 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Undefined variable: edit_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: delete_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: recommend E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 113 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Undefined variable: edit_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: delete_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: recommend E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 113 行.
+NOTIC: [8] Use of undefined constant attachment - assumed 'attachment' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Undefined variable: edit_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: delete_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: recommend E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 113 行.
+NOTIC: [8] Use of undefined constant attachment - assumed 'attachment' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Undefined variable: edit_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: delete_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: recommend E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 113 行.
+NOTIC: [8] Use of undefined constant attachment - assumed 'attachment' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Undefined variable: edit_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: delete_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: recommend E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 113 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Undefined variable: edit_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: delete_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: recommend E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 113 行.
+NOTIC: [8] Use of undefined constant attachment - assumed 'attachment' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 115 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Undefined variable: edit_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: delete_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: recommend E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 113 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Undefined variable: edit_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: delete_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: recommend E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 113 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Undefined variable: edit_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: delete_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: recommend E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 113 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Undefined variable: edit_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: delete_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: recommend E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 113 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Undefined variable: edit_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: delete_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: recommend E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 113 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Undefined variable: edit_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: delete_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: recommend E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 113 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Undefined variable: edit_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 128 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: delete_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 129 行.
+NOTIC: [8] Undefined variable: listorders_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 139 行.
+NOTIC: [8] Undefined variable: audit_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 140 行.
+NOTIC: [8] Undefined variable: audit_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 141 行.
+NOTIC: [8] Undefined variable: recommend_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 142 行.
+NOTIC: [8] Undefined variable: recommend_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 143 行.
+NOTIC: [8] Undefined variable: show_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 144 行.
+NOTIC: [8] Undefined variable: show_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 145 行.
+NOTIC: [8] Undefined variable: delete_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 146 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053855s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054043s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001018s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001163s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001805s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001975s ]
+
+[ 2014-06-19T15:28:30+08:00 ] 192.168.2.212 /Admin/Audit/index/id/50
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001721s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002722s ]
+ERR: 无法加载控制器:Audit
+
+[ 2014-06-19T15:28:51+08:00 ] 192.168.2.212 /Admin/Audit/index/id/50
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001714s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003095s ]
+SQL: SHOW COLUMNS FROM `sp_users` [ RunTime:0.001429s ]
+SQL: SELECT * FROM `sp_users` WHERE ( ID=1 ) LIMIT 1   [ RunTime:0.000918s ]
+SQL: SHOW COLUMNS FROM `sp_products` [ RunTime:0.001748s ]
+NOTIC: [2048] Declaration of Admin\Model\TermsModel::_before_write() should be compatible with that of Think\Model::_before_write() E:\work\isweek-dev\Application\Admin\Model\TermsModel.class.php 第 275 行.
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.001360s ]
+SQL: SHOW COLUMNS FROM `sp_suppliers` [ RunTime:0.001262s ]
+SQL: SELECT `id`,`name` FROM `sp_suppliers` ORDER BY name ASC,listorder ASC  [ RunTime:0.000647s ]
+SQL: SELECT * FROM `sp_products` WHERE ( id=50 ) LIMIT 1   [ RunTime:0.001690s ]
+SQL: SELECT `id`,`name` FROM `sp_suppliers` ORDER BY name ASC,listorder ASC  [ RunTime:0.000907s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( term_id=56 ) LIMIT 1   [ RunTime:0.001021s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( term_id=46 ) LIMIT 1   [ RunTime:0.000988s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( term_id=52 ) LIMIT 1   [ RunTime:0.001231s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( term_id=56 ) LIMIT 1   [ RunTime:0.000860s ]
+NOTIC: [8] Undefined variable: selected_cate_options E:\work\isweek-dev\Application\Admin\Controller\AuditController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000323s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000781s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\0ff05413318c1fa2c5f8d08cdf919137.php 第 74 行.
+NOTIC: [8] Use of undefined constant supplier_id - assumed 'supplier_id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\0ff05413318c1fa2c5f8d08cdf919137.php 第 74 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\0ff05413318c1fa2c5f8d08cdf919137.php 第 74 行.
+NOTIC: [8] Use of undefined constant supplier_id - assumed 'supplier_id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\0ff05413318c1fa2c5f8d08cdf919137.php 第 74 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\0ff05413318c1fa2c5f8d08cdf919137.php 第 74 行.
+NOTIC: [8] Use of undefined constant supplier_id - assumed 'supplier_id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\0ff05413318c1fa2c5f8d08cdf919137.php 第 74 行.
+NOTIC: [8] Use of undefined constant attachment - assumed 'attachment' E:\work\isweek-dev\Application\Runtime\Cache\Admin\0ff05413318c1fa2c5f8d08cdf919137.php 第 147 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034461s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034663s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000905s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001044s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001849s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002009s ]
+
+[ 2014-06-19T15:32:32+08:00 ] 192.168.2.212 /Admin/Audit/index/id/50
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002986s ]
+SQL: SHOW COLUMNS FROM `sp_users` [ RunTime:0.001431s ]
+SQL: SELECT * FROM `sp_users` WHERE ( ID=1 ) LIMIT 1   [ RunTime:0.000793s ]
+SQL: SHOW COLUMNS FROM `sp_products` [ RunTime:0.001733s ]
+NOTIC: [2048] Declaration of Admin\Model\TermsModel::_before_write() should be compatible with that of Think\Model::_before_write() E:\work\isweek-dev\Application\Admin\Model\TermsModel.class.php 第 275 行.
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.001263s ]
+SQL: SHOW COLUMNS FROM `sp_suppliers` [ RunTime:0.001228s ]
+SQL: SELECT `id`,`name` FROM `sp_suppliers` ORDER BY name ASC,listorder ASC  [ RunTime:0.000658s ]
+SQL: SELECT * FROM `sp_products` WHERE ( id=50 ) LIMIT 1   [ RunTime:0.000898s ]
+SQL: SELECT `id`,`name` FROM `sp_suppliers` ORDER BY name ASC,listorder ASC  [ RunTime:0.000810s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( term_id=56 ) LIMIT 1   [ RunTime:0.000635s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( term_id=46 ) LIMIT 1   [ RunTime:0.001277s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( term_id=52 ) LIMIT 1   [ RunTime:0.000980s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( term_id=56 ) LIMIT 1   [ RunTime:0.000784s ]
+NOTIC: [8] Undefined variable: selected_cate_options E:\work\isweek-dev\Application\Admin\Controller\AuditController.class.php 第 27 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000258s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000415s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\0ff05413318c1fa2c5f8d08cdf919137.php 第 74 行.
+NOTIC: [8] Use of undefined constant supplier_id - assumed 'supplier_id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\0ff05413318c1fa2c5f8d08cdf919137.php 第 74 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\0ff05413318c1fa2c5f8d08cdf919137.php 第 74 行.
+NOTIC: [8] Use of undefined constant supplier_id - assumed 'supplier_id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\0ff05413318c1fa2c5f8d08cdf919137.php 第 74 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\0ff05413318c1fa2c5f8d08cdf919137.php 第 74 行.
+NOTIC: [8] Use of undefined constant supplier_id - assumed 'supplier_id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\0ff05413318c1fa2c5f8d08cdf919137.php 第 74 行.
+NOTIC: [8] Use of undefined constant attachment - assumed 'attachment' E:\work\isweek-dev\Application\Runtime\Cache\Admin\0ff05413318c1fa2c5f8d08cdf919137.php 第 147 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029373s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029517s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001055s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002175s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002358s ]
+

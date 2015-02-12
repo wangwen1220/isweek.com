@@ -1,0 +1,39 @@
+<IfModule mod_rewrite.c>
+  Options +FollowSymlinks
+  RewriteEngine On
+
+#指定链接重写
+  RewriteRule ^allcategories/$ index.php/AllCategorys/index
+  RewriteRule ^contactus.html$ index.php/Contactus/index
+  RewriteRule ^aboutus.html$ index.php/Aboutus/index
+  RewriteRule ^SourcingService.html$ index.php/SourcingService/index
+  RewriteRule ^admin$ index.php/Admin/index
+  RewriteRule ^index.php$ http://www.isweek.com [R=permanent,L]
+
+#end
+
+
+#首页分页重写
+  RewriteRule ^p/(\d+)\.html$ index.php/home/index/index/p/$1
+#end
+
+#分类页重写
+  RewriteRule ^wholesale/(.+)_(\d+)$ index.php/category/index/cid/$2/name/$1
+#end
+
+#分类页分页重写
+  RewriteRule ^wholesale/(.+)_(\d+)/(\d+)\.html$ index.php/category/index/cid/$2/p/$3/name/$1
+#end
+
+#产品详情页重写
+  RewriteRule ^product/(.+)_(\d+)\.html$ index.php/product/details/id/$2/name/$1
+#end
+
+#404页重写(主要是搜索框中的东西是动态的)
+  RewriteRule ^404\.htm$ index.php/common/_empty/
+#end
+
+#404页重写(主要是搜索框中的东西是动态的)
+  RewriteRule ^404\.php$ index.php/common/_empty/
+#end
+</IfModule>

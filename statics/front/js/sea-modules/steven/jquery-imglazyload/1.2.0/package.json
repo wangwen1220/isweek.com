@@ -1,0 +1,21 @@
+{
+    "name": "jquery-imglazyload",
+    "family": "steven",
+    "version": "1.2.0",
+    "keywords": ["imglazyload"],
+    "description": "jQuery 图片延迟加载插件",
+    "homepage": "https://github.com/wangwen1220/jquery-imglazyload.git",
+    "maintainers": [
+        "Steven <wangwen1220@gmail.com>"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/wangwen1220/jquery-imglazyload.git"
+    },
+    "bugs": {
+        "url": "https://github.com/wangwen1220/jquery-imglazyload/issues"
+    },
+    "spm": {
+        "output": ["jquery-imglazyload.js"]
+    }
+}

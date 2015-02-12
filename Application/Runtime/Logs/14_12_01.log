@@ -1,0 +1,30 @@
+[ 2014-12-01T14:31:04+08:00 ] 192.168.2.212 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020089s ]
+
+[ 2014-12-01T15:46:53+08:00 ] 192.168.2.212 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001854s ]
+
+[ 2014-12-01T15:47:57+08:00 ] 192.168.2.212 /contactus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001917s ]
+
+[ 2014-12-01T15:48:55+08:00 ] 192.168.2.212 /contactus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001723s ]
+
+[ 2014-12-01T15:48:57+08:00 ] 192.168.2.212 /contactus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001864s ]
+
+[ 2014-12-01T15:58:25+08:00 ] 192.168.2.212 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001896s ]
+

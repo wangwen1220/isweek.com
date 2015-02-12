@@ -1,0 +1,63 @@
+[ 2014-12-16T08:42:38+08:00 ] 192.168.2.200 /wholesale/led-lighting_2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.161083s ]
+
+[ 2014-12-16T08:42:41+08:00 ] 192.168.2.200 /index.php/product/do_get_rand20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001777s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002993s ]
+NOTIC: [8] Undefined index: cid E:\work\isweek-dev\Application\Home\Controller\CommonController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.001424s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 0 ) LIMIT 1   [ RunTime:0.000887s ]
+SQL: SHOW COLUMNS FROM `sp_products` [ RunTime:0.001843s ]
+SQL: SELECT * FROM `sp_products` WHERE ( `audit`=1 and `status`=1 ) ORDER BY rand() LIMIT 20   [ RunTime:0.003929s ]
+
+[ 2014-12-16T16:56:42+08:00 ] 192.168.2.212 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.040940s ]
+
+[ 2014-12-16T16:59:52+08:00 ] 192.168.2.212 /contactus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000118s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002553s ]
+
+[ 2014-12-16T17:10:38+08:00 ] 192.168.2.212 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008746s ]
+
+[ 2014-12-16T17:11:13+08:00 ] 192.168.2.212 /aboutus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001226s ]
+
+[ 2014-12-16T17:13:39+08:00 ] 192.168.2.212 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002563s ]
+
+[ 2014-12-16T17:19:28+08:00 ] 192.168.2.212 /SourcingService.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001838s ]
+
+[ 2014-12-16T17:19:30+08:00 ] 192.168.2.212 /SourcingService.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003062s ]
+
+[ 2014-12-16T17:21:21+08:00 ] 192.168.2.212 /wholesale/promotions_16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001982s ]
+
+[ 2014-12-16T17:21:23+08:00 ] 192.168.2.212 /product/dragon-ring-silver-ring-072501_76.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002053s ]
+

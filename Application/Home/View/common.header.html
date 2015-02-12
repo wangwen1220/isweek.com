@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html class="{$css_style}" lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title><?php echo $title ?></title>
+  <meta name="keywords" content="<?php echo $keywords ?>" />
+  <meta name="description" content="<?php echo $description ?>" />
+  <if condition="$css_style == 'details'">
+  <meta property="og:title" content="{$item.product_name} - {$item.serial_no}"/>
+  <meta property="og:type" content="product"/>
+  <meta property="og:url" content="__HOST____SELF__"/>
+  <meta property="og:site_name" content="ISweek.com"/>
+  <meta property="og:description" content="{$item.abstract}"/>
+  <meta property="og:image" content="__HOST__<?php echo $item['images'][0]['thumb_300']; ?>"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:image" content="__HOST__<?php echo $item['images'][0]['thumb_300']; ?>"/>
+  <meta name="twitter:image:src" content="__HOST__<?php echo $item['images'][0]['thumb_300']; ?>"/>
+  <meta name="twitter:description" content="{$item.abstract}"/>
+  <meta name="twitter:site" content="@isweekb2c"/>
+  <meta name="twitter:title" content="<?php echo $title ?>"/>
+  <meta name="application-name" content="<?php echo $title ?>"/>
+  <meta name="msapplication-TileColor" content="#bb0000"/>
+  <meta name="msapplication-TileImage" content="__HOST__/statics/front/img/logo.png"/>
+  </if>
+
+  <link rel="stylesheet" href="__ROOT__/statics/front/css/main.css" />
+  <!-- <script src="__ROOT__/statics/front/js/cssrefresh.js"></script> -->
+  <!-- <script src="__ROOT__/statics/front/js/live.js"></script> -->
+
+  <!--[if lt IE 9]>
+  <script src="__ROOT__/statics/front/js/ie/html5shiv.js"></script>
+  <script src="__ROOT__/statics/front/js/ie/respond.js"></script>
+  <script src="__ROOT__/statics/front/js/ie/nwmatcher.js"></script>
+  <script src="__ROOT__/statics/front/js/ie/selectivizr.js"></script>
+  <![endif]-->
+  <!--[if IE 6]>
+  <script src="__ROOT__/statics/front/js/ie/pngfix.js"></script>
+  <![endif]-->
+
+  <script src="__ROOT__/statics/front/js/sea-modules/seajs/seajs/2.2.1/sea.js" id="seajsnode"></script>
+  <script src="__ROOT__/statics/front/js/main.js"></script>
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+<include file="common/menu"/>

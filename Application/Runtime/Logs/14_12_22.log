@@ -1,0 +1,15 @@
+[ 2014-12-22T08:38:38+08:00 ] 192.168.2.212 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.053361s ]
+
+[ 2014-12-22T08:58:57+08:00 ] 192.168.2.212 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018521s ]
+
+[ 2014-12-22T14:31:16+08:00 ] 192.168.2.212 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.036211s ]
+

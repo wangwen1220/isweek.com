@@ -1,0 +1,43 @@
+<include file="common/header"/>
+  <div id="main">
+    <div class="wrapper">
+      <div class="w-fly-mr">
+        <div class="w-fly-cnt">
+          <div class="position"><a href="/">Home</a> <i>|</i> Search Results for <span class="highlight">{:I('get.kw')}({$products_count} products)</span></div>
+          <div class="proshow">
+            <div class="proshow-hd clearfix">
+              <form class="sort" action="{:U('/home/search')}" method="get">
+			  <input type="hidden" name="kw" value="{:I('get.kw')}" />
+			  <input type="hidden" name="cid" value="{:I('get.cid')}" />
+			  showing <input type="text" name="perpage" size="4" maxlength="4" value="{$perpage|default="60"}" /> per page <button type="submit">Update</button>
+			  </form>
+              <div class="pager-wrap">
+                <div class="w-pager">
+				{$page}
+                </div>
+              </div>
+            </div>
+            <ul class="proshow-bd prolist clearfix">
+
+			  <?php foreach($products as $vo){ ?>
+              <li class="prolist-item"><div class="wrap">
+                <a href="{:rw_product_url($vo['product_name'],$vo['serial_no'],$vo['id'])}" class="thumb"><img src="{$vo.thumb_200}" alt="{$vo.product_name}" width="200" height="200" /></a>
+                <h3 class="title"><a href="{:rw_product_url($vo['product_name'],$vo['serial_no'],$vo['id'])}">{$vo.product_name}</a></h3>
+                <p class="description"><?php echo strip_tags($vo['abstract']); ?></p>
+              </div></li>
+            <?php } ?>
+            </ul>
+            <div class="proshow-ft clearfix">
+              <div class="pager-wrap">
+                <div class="w-pager">
+                  {$page}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+<include file="common/footer"/>

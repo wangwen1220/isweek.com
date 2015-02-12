@@ -1,0 +1,11 @@
+node_modules/
+原型图/
+.svn/
+.idea/
+# up-rewrite.conf
+# u.php
+.project
+.build
+.cache
+.DS_Store
+Thumbs.db

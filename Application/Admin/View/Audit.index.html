@@ -1,0 +1,188 @@
+<include file="common/header"/>
+<script type="text/javascript">
+    var catid = "12";
+</script>
+<style type="text/css">
+.col-auto {
+	overflow: hidden;
+	_zoom: 1;
+	_float: left;
+	border: 1px solid #c2d1d8;
+}
+.col-right {
+	float: right;
+	width: 210px;
+	overflow: hidden;
+	margin-left: 6px;
+	border: 1px solid #c2d1d8;
+}
+
+body fieldset {
+	border: 1px solid #D8D8D8;
+	padding: 10px;
+	background-color: #FFF;
+}
+body fieldset legend {
+    background-color: #F9F9F9;
+    border: 1px solid #D8D8D8;
+    font-weight: 700;
+    padding: 3px 8px;
+}
+.list-dot{ padding-bottom:10px}
+.list-dot li,.list-dot-othors li{padding:5px 0; border-bottom:1px dotted #c6dde0; font-family:"宋体"; color:#bbb; position:relative;_height:22px}
+.list-dot li span,.list-dot-othors li span{color:#004499}
+.list-dot li a.close span,.list-dot-othors li a.close span{display:none}
+.list-dot li a.close,.list-dot-othors li a.close{ background: url("__ROOT__/statics/images/cross.png") no-repeat left 3px; display:block; width:16px; height:16px;position: absolute;outline:none;right:5px; bottom:5px}
+.list-dot li a.close:hover,.list-dot-othors li a.close:hover{background-position: left -46px}
+.list-dot-othors li{float:left;width:24%;overflow:hidden;}
+</style>
+</head>
+<body class="J_scroll_fixed">
+<div class="wrap J_check_wrap">
+  <div class="nav">
+    <ul class="cc">
+      <li class="current"><a href="#">{$term.name|default='产品预览'}</a></li>
+    </ul>
+  </div>
+  
+
+  <div class="col-auto">
+    <div class="h_a">产品内容</div>
+    <div class="table_full">
+      <table width="100%">
+            <tr>
+              <th width="80">产品名称<span class="must_red">*</span></th>
+              <td>
+              	<input type="text" disabled="disabled" style="width:400px;" name="product_name" id="product_name" value="{$products.product_name}" style="color:" class="input input_hd J_title_color" placeholder="请输入产品名称" maxlength="80"/>
+              	
+              </td>
+            </tr>
+            <tr>
+              <th width="80">供应商<span class="must_red">*</th>
+              <td>
+              	<select name="supplier_id"  class="normal_select"  disabled="disabled"  multiple="multiple" size="10" style="width: 17em">
+				{$selected_supplier_options}
+              </td>
+            </tr>
+            <tr>
+              <th width="80">产品分类<span class="must_red">*</th>
+				<td>
+					<table>
+					<tr>
+					{$selected_cate_options}
+					</tr>
+					</table>
+				</td>
+            </tr>
+            <tr>
+              <th width="80">产品型号<span class="must_red">*</th>
+              <td><input type='text' disabled="disabled" name='serial_no' id='serial_no' value='{$products.serial_no}' style='width:280px'   class='input' placeholder='请输入关键字'></td>
+            </tr>
+
+
+            <tr>
+              <th width="80">关键词<span class="must_red">*</th>
+              <td><input type='text' disabled="disabled"  name='keywords' id='keywords' value='{$products.keywords}' style='width:280px'   class='input' placeholder='请输入关键字'> 多关键词之间用半角逗号隔开</td>
+            </tr>
+            <tr>
+              <th width="80">特性<span class="must_red">*</th>
+              <td><textarea name='features' disabled="disabled"  id='features' style='width:50%;height:150px;'   maxlength="660" >{$products.features}</textarea> <br/>Product Features 建议不超过10行，此段文字将在产品介绍页的最顶端展示。最多勿超过660字符。</td>
+            </tr>		
+            <tr>
+              <th width="80">内容<span class="must_red">*</th>
+              <td style='width:50%;height:150px;' >  {$products.description}</td>
+            </tr>			
+			
+              <tr>
+              <th width="80">摘要<span class="must_red">*</th>
+              <td><textarea name='abstract' disabled="disabled" id='abstract' style='width:50%;height:100px;' maxlength="160" >{$products.abstract}</textarea><br/> Short Description 建议不超过160字符。此段将在产品列表页的摘要中展示，同时供搜索引擎收录用。可以写产品简介或参数。 </td>
+            </tr>
+          
+            <tr>
+              <th width="80">产品图片<span class="must_red">*</th>
+              <td>
+				<fieldset class="blue pad-10">
+		        <legend>图片列表</legend>
+				<ul id="photos" class="picList">
+			        <foreach name="products.images" item="vo">
+				        <li id="savedimage{$key}" style="display:inline;">
+							<img src="{$vo['thumb_300']}" width="300"/>
+						</li>
+			        </foreach>
+				</ul>
+
+
+				</fieldset>
+				<div class="bk10"></div>
+            </tr>
+         
+            <tr>
+              <th width="80">Data Sheet</th>
+              <td>
+			  <if condition="$products.attachment!=''">
+			  <a href="{$products.attachment}" target="_blank"/>{$products.attachment}</a>
+			  </if>
+			  </td>
+            </tr>
+
+
+        <tr>
+          <th width="80">发布时间</th>
+          <td>{$products.post_time|date='Y-m-d G:i:s', ###}</td>
+        </tr>
+						
+
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div class="btn_wrap" style="z-index:999;text-align: center;">
+    <div class="btn_wrap_pd">
+	<form action="" method="post" class="J_ajaxForm">
+	  <input class="J_check" type="checkbox" checked="checked" value="{:I('get.id')}" style="display:none;" />
+      <button class="btn btn_submit J_ajax_submit_btn" type="submit" data-action="{:u('audit/audit',array('id'=>$_GET['id'],'check'=>1))}"  {$audit_act}>审核通过</button>
+	  <a target="_blank" class="btn" href="{:U('products/edit', array('id'=>$_GET['id']))}">修改</a>
+	  <button class="btn btn_submit J_ajax_submit_btn" type="submit" data-action="{:u('audit/audit',array('id'=>$_GET['id'],'uncheck'=>1))}"  {$audit_act}>审核不通过</button>
+	  <button class="btn btn_submit J_ajax_submit_btn" type="submit" data-action="{:u('audit/delete',array('id'=>$_GET['id']))}"  data-msg="你确定删除吗？"  data-subcheck="true"  {$delete_act}>删除</button>
+	 </form>
+	</div>
+  </div>
+</div>
+<script type="text/javascript" src="__ROOT__/statics/js/common.js{$js_debug}"></script>
+<script type="text/javascript" src="__ROOT__/statics/js/content_addtop.js{$js_debug}"></script>
+<script type="text/javascript"> 
+$(function () {
+	setCookie("refersh_time",0);
+    Wind.use('ajaxForm','artDialog','iframeTools', function () {
+        //批量移动
+        $('#J_Content_remove').click(function (e) {
+            var str = 0;
+            var id = tag = '';
+            $("input[name='ids[]']").each(function () {
+                if ($(this).attr('checked')) {
+                    str = 1;
+                    id += tag + $(this).val();
+                    tag = ',';
+                }
+            });
+            if (str == 0) {
+				art.dialog.through({
+					id:'error',
+					icon: 'error',
+					content: '您没有勾选信息，无法进行操作！',
+					cancelVal: '关闭',
+					cancel: true
+				});
+                return false;
+            }
+            var $this = $(this);
+            art.dialog.open("__ROOT__/index.php?g=admin&m=post&a=move&ids=" + id, {
+                title: "批量移动"
+            });
+        });
+    });
+});
+
+</script>
+</body>
+</html>

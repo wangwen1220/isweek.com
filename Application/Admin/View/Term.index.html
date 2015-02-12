@@ -1,0 +1,186 @@
+<include file="common/header"/>
+<body class="J_scroll_fixed">
+<div class="wrap jj">
+  <div class="nav">
+    <ul class="cc">
+      <li class="current"><a href="{:U('term/index')}">分类管理 </a></li>
+      <li><a href="{:U('term/add')}">添加分类 </a></li>
+    </ul>
+  </div>
+  <div class="common-form">
+    <form method="post" class="J_ajaxForm" action="{:U('term/listorders')}">
+      <div class="table_list">
+	    <table width="100%">
+	        <thead>
+	          <tr>	   
+	            <td width="100">ID</td>
+	            <td>分类名称</td>
+				<td width="120">homepage show</td>
+				<td width="80">navi show</td>
+				<td width="80">顶部导航排序</td>
+				<td align='center'>访问</td>
+	            <td>操作</td>
+	          </tr>
+	        </thead>
+	        <tbody>
+	        	{$taxonomys}
+			</tbody>
+	      </table>
+    <div class="btn_wrap">
+      <div class="btn_wrap_pd">
+        <button class="btn btn_submit mr10 J_ajax_submit_btn" type="submit">排序</button>
+      </div>
+    </div>
+  </div>
+    </form>
+  </div>
+</div>
+<script src="__ROOT__/statics/js/common.js?{$js_debug}"></script>
+<script>
+function refersh_window() {
+    var refersh_time = getCookie('refersh_time');
+    if (refersh_time == 1) {
+		setCookie('refersh_time');
+        window.location="{:u('term/index')}";
+    }
+}
+setInterval(function(){
+	refersh_window();
+}, 2000);
+
+//删除分类
+$(".delete_cate").on("click", function(){
+	var ele = $(this);
+//	console.log(ele);
+	Wind.use("artDialog", function () {
+		art.dialog({
+			id: "question",
+			icon: "question",
+			fixed: true,
+			lock: true,
+			background: "#CCCCCC",
+			opacity: 0,
+			content: "请确认该类别下面的产品是否需要移走",
+			button:[
+				{
+					name: '去看看',
+					callback:function(){
+						window.open('{:U("Products/index")}/category/'+ele.attr('data-id'));
+						return false;
+					},
+					focus: true
+				},{
+					name: '直接删除',
+					callback:function(){
+						//ajax
+						$.ajax({
+							url: '{:U("Term/delete")}/id/'+ele.attr('data-id'),
+							dataType: 'json',
+							success: function(data){
+								if(data.status) {
+									alert('删除成功！');
+									location = '__URL__';
+								} else {
+									alert('删除失败！'+data.info);
+								}
+							}
+						});
+						return false;
+					}
+				}
+			]
+		});
+	});
+});
+
+//禁用分类
+$(".forbid_cate").on("click", function(){
+	var ele = $(this);
+//	console.log(ele);
+	Wind.use("artDialog", function () {
+		art.dialog({
+			id: "question",
+			icon: "question",
+			fixed: true,
+			lock: true,
+			background: "#CCCCCC",
+			opacity: 0,
+			content: "确定要禁用吗？",
+			button:[
+				{
+					name: '去看看该类别下面的产品',
+					callback:function(){
+						window.open('{:U("Products/index")}/category/'+ele.attr('data-id'));
+						return false;
+					},
+					focus: true
+				},{
+					name: '直接禁用此类别',
+					callback:function(){
+						//ajax
+						$.ajax({
+							url: '{:U("Term/forbid")}/ct/0/id/'+ele.attr('data-id'),
+							dataType: 'json',
+							success: function(data){
+								if(data.status) {
+									alert('禁用成功！');
+									location = '__URL__';
+								} else {
+									alert('禁用失败！'+data.info);
+								}
+							}
+						});
+						return false;
+					}
+				}
+			]
+		});
+	});
+});
+//启用分类
+$(".enable_cate").on("click", function(){
+	var ele = $(this);
+//	console.log(ele);
+	Wind.use("artDialog", function () {
+		art.dialog({
+			id: "question",
+			icon: "question",
+			fixed: true,
+			lock: true,
+			background: "#CCCCCC",
+			opacity: 0,
+			content: "确定要启用吗？",
+			button:[
+				{
+					name: '确认启用',
+					callback:function(){
+						//ajax
+						$.ajax({
+							url: '{:U("Term/forbid")}/ct/1/id/'+ele.attr('data-id'),
+							dataType: 'json',
+							success: function(data){
+								if(data.status) {
+									alert('启用成功！');
+									location = '__URL__';
+								} else {
+									alert('启用失败！'+data.info);
+								}
+							}
+						});
+						return false;
+					},
+					focus: true
+				},
+				{
+					name: '关闭',
+					callback:function(){			
+						return true;
+					}
+				}
+			]
+		});
+	});
+});
+</script>
+</body>
+</html>

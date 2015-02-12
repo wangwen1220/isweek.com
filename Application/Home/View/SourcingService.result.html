@@ -1,0 +1,23 @@
+<include file="common/header"/>
+  <div id="main">
+    <div class="wrapper">
+      <div class="w-fly-mr">
+        <div class="w-fly-cnt">
+          <div class="position"><a href="/">Home</a> <i>|</i> <strong>Sourcing Service</strong></div>
+          <input type="hidden" name="dopost" value="true" />
+            <div class="header" style="text-align: center;margin-top: 40px;">
+            <?php if($result=='success'){ ?>
+              <h3 style="font-size:18px;">{$content}</h3><br/>
+              <a href="javascript:history.back();" style="text-decoration: underline; color:blue; font-size: 14px;">Go Back</a>　
+              <a href="http://www.isweek.com" style="text-decoration: underline; color:blue; font-size: 14px;">Go to Homepage</a>
+            <?php }else if($result=='error'){ ?>
+              <h3 style="font-size:18px;">{$content}</h3><br/>
+              <a href="javascript:history.back();" style="text-decoration: underline; color:blue; font-size: 14px;">Go Back</a>
+            <?php } ?>
+            </div>
+        </div>
+      </div>
+      <include file="common/sidebar"/>
+    </div>
+  </div>
+<include file="common/footer"/>

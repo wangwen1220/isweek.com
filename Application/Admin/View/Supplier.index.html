@@ -1,0 +1,117 @@
+<include file="common/header" />
+<body class="J_scroll_fixed">
+<div class="wrap J_check_wrap">
+  <div class="nav">
+    <ul class="cc">
+      <li class="current"><a href="javascript:;">所有供应商</a></li>
+      <li><a target="_self" href="{:U('supplier/add')}">添加供应商</a></li>
+    </ul>
+  </div>
+  <div class="h_a">搜索</div>
+  <form  method="post" action="{:u('supplier/index')}">
+    <div class="search_type cc mb10">
+      <div class="mb10"> 
+        <span class="mr20">公司名称：
+        <input type="text" class="input length_2" name="keyword" style="width:200px;" value="{$formget.keyword}" placeholder="请输入公司名称...">
+        <input type="submit" class="btn" value="搜索"/>
+        </span>
+      </div>
+    </div>
+  </form>
+  <form class="J_ajaxForm" action="" method="post">
+    <div class="table_list">
+      <table width="100%">
+        <thead>
+	          <tr>
+	            <td width="16"><label><input type="checkbox" class="J_check_all" data-direction="x" data-checklist="J_check_x"></label></td>
+<!--	            <td width="50">排序</td>-->
+	            <td>ID</td>
+	            <td>公司名称</td>
+	            <td width="150">公司编码</td>
+	            <td width="120"><span>产品数量</span></td>
+	            <td width="140">状态</td>
+	            <td width="120">操作</td>
+	          </tr>
+        </thead>
+        	<php>$status=array("0"=>"禁用","1"=>"启用");</php>
+        	<foreach name="suppliers" item="vo">
+	        	<tr>
+		            <td><input type="checkbox" class="J_check" data-yid="J_check_y" data-xid="J_check_x" name="ids[]" value="{$vo.id}" ></td>
+<!--		            <td><input name='listorders[{$vo.id}]' class="input mr5"  type='text' size='3' value='{$vo.listorder}'></td>-->
+		            <td><a>{$vo.id}</a></td>
+		            <td>
+		            	<span style="" >{$vo.name}</span>
+		            </td>
+		            <!-- <td>0</td> -->
+		            <td>{$vo.code}</td>
+		            <td>{$vo.count}</td>
+		            <td>{$status[$vo[status]]}</td>
+		            <td>
+		            	<a href="{:U('supplier/edit',array('id'=>$vo[id]))}" target="_blank" {$edit_act}>修改</a>|
+		            	<a href="{:U('supplier/delete',array('id'=>$vo[id]))}" class="J_ajax_del" {$delete_act}>删除</a>
+					</td>
+	          	</tr>
+          </foreach>
+          </table>
+      <div class="p10"><div class="pages"> {$Page} </div> </div>
+     
+    </div>
+    <div>
+      <div class="btn_wrap_pd">
+        <label class="mr20"><input type="checkbox" class="J_check_all" data-direction="y" data-checklist="J_check_y">全选</label>                
+ <!--       <button class="btn J_ajax_submit_btn" type="submit" data-action="{:u('supplier/listorders')}">排序</button>-->
+        <button class="btn J_ajax_submit_btn" type="submit" data-action="{:u('supplier/check',array('check'=>1))}" data-subcheck="true" {$check_act}>启用</button>
+        <button class="btn J_ajax_submit_btn" type="submit" data-action="{:u('supplier/check',array('uncheck'=>1))}" data-subcheck="true" {$check_act}>禁用</button>
+        <button class="btn J_ajax_submit_btn" type="submit" data-action="{:u('supplier/delete')}" data-subcheck="true" data-msg="你确定删除吗？" {$delete_act}>删除</button>
+      </div>
+    </div>
+  </form>
+</div>
+<script src="__ROOT__/statics/js/common.js{$js_debug}"></script>
+<script>
+
+function refersh_window() {
+    var refersh_time = getCookie('refersh_time');
+    if (refersh_time == 1) {
+        window.location="{:u('supplier/index',$formget)}";
+    }
+}
+setInterval(function(){
+	refersh_window();
+}, 2000);
+$(function () {
+	setCookie("refersh_time",0);
+    Wind.use('ajaxForm','artDialog','iframeTools', function () {
+        //批量移动
+        $('#J_Content_remove').click(function (e) {
+            var str = 0;
+            var id = tag = '';
+            $("input[name='ids[]']").each(function () {
+                if ($(this).attr('checked')) {
+                    str = 1;
+                    id += tag + $(this).val();
+                    tag = ',';
+                }
+            });
+            if (str == 0) {
+				art.dialog.through({
+					id:'error',
+					icon: 'error',
+					content: '您没有勾选信息，无法进行操作！',
+					cancelVal: '关闭',
+					cancel: true
+				});
+                return false;
+            }
+            var $this = $(this);
+            art.dialog.open("__ROOT__/index.php?g=admin&m=post&a=move&ids=" + id, {
+                title: "批量移动"
+            });
+        });
+    });
+});
+
+
+</script>
+</body>
+</html>

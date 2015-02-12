@@ -1,0 +1,46 @@
+<header id="header">
+    <div class="wrapper">
+      <h1><a href="/"><img src="__ROOT__/statics/front/img/logo.png" alt="ISweek.com" /></a></h1>
+      <!-- <nav>
+        <a href="/contactus.html" title="contact us-ISweek.com">Contact Us</a>
+      </nav> -->
+      <form action="{:U('/home/search')}" class="search clearfix" id="search">
+        <fieldset class="search-panel">
+          <input type="text" name="kw" class="kw js-placeholder" value="<?php if(empty($_GET['kw'])){ echo 'Product Keyword/Model Number'; }else{ echo $_GET['kw']; } ?>"/>
+          <span class="select-wrap">
+            <select name="cid" id="js-select">
+              <option value="0">All Categories</option>
+              <?php foreach($search_categorys as $vo){ ?>
+              <option value="{$vo.term_id}" <?php if($curr_search_cid==$vo['term_id']){ echo 'selected'; } ?> >{$vo.name}</option>
+              <?php } ?>
+            </select>
+          </span>
+        </fieldset>
+        <button type="submit" class="search-submit"><span>Search</span></button>
+      </form>
+
+      <a class="lang" href="http://www.isweek.cn/" target="_blank">中文</a>
+    </div>
+  </header>
+  <nav id="nav">
+    <div class="wrapper">
+      <ul>
+        <li><a class="<?php if(empty($curr_term_id)){ echo 'xon'; }?> first" href="/allcategories/">All CATEGORIES</a></li>
+        <?php foreach($navi_categorys as $vo){ ?>
+        <li><a class="<?php foreach($arr_parent as $vo_parent){ if($vo_parent == $vo['term_id']){ echo ' on'; break; } } ?>"
+        	href="{:rw_category_url($vo['name'],$vo['term_id'])}">{$vo.name}</a></li>
+        <?php } ?>
+        
+        <li class="fr">
+          <a class="trigger" href="/contactus.html">Contact Us</a>
+          <!-- <ul>
+            <li><a href="/aboutus.html">About Us</a></li>
+            <li><a href="/contactus.html" title="contact us-ISweek.com">Contact Us</a></li>
+          </ul> -->
+        </li>
+        <li class="fr">
+          <a class="trigger <?php if($curr_menu_key == 'SourcingService'){ echo 'on'; } ?>" href="/SourcingService.html">Sourcing Service</a>
+        </li>
+      </ul>
+    </div>
+  </nav>

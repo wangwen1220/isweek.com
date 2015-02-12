@@ -1,0 +1,2069 @@
+[ 2014-06-17T14:46:35+08:00 ] 192.168.2.212 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009865s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\work\isweek-dev\Application\Home\Controller\CommonController.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\work\isweek-dev\Application\Home\Controller\CommonController.class.php 第 89 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\work\isweek-dev\Application\Home\Controller\CommonController.class.php 第 102 行.
+NOTIC: [8] Undefined index: cid E:\work\isweek-dev\Application\Home\Controller\CommonController.class.php 第 38 行.
+NOTIC: [2] mysql_connect(): Access denied for user 'root'@'localhost' (using password: YES) E:\work\isweek-dev\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+ERR: Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2014-06-17T14:47:35+08:00 ] 192.168.2.212 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003477s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\work\isweek-dev\Application\Home\Controller\CommonController.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\work\isweek-dev\Application\Home\Controller\CommonController.class.php 第 89 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\work\isweek-dev\Application\Home\Controller\CommonController.class.php 第 102 行.
+NOTIC: [8] Undefined index: cid E:\work\isweek-dev\Application\Home\Controller\CommonController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.001442s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 0 ) LIMIT 1   [ RunTime:0.000840s ]
+NOTIC: [8] Undefined index: perpage E:\work\isweek-dev\Application\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\Application\Home\Controller\IndexController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `sp_products` [ RunTime:0.001751s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sp_products` WHERE ( `audit` = 1 AND `status` = 1  ) LIMIT 1   [ RunTime:0.000700s ]
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+SQL: SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1 AND `recommend` = 1 union all SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1 AND `recommend` = 0 ORDER BY `recommend` desc,`edit_time` desc,`audit_time` desc LIMIT 0, 60 [ RunTime:0.002778s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000219s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000367s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 57 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081468s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081616s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011608s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011760s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010525s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010688s ]
+
+[ 2014-06-17T14:47:39+08:00 ] 192.168.2.212 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003384s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\work\isweek-dev\Application\Home\Controller\CommonController.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\work\isweek-dev\Application\Home\Controller\CommonController.class.php 第 89 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\work\isweek-dev\Application\Home\Controller\CommonController.class.php 第 102 行.
+NOTIC: [8] Undefined index: cid E:\work\isweek-dev\Application\Home\Controller\CommonController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.001440s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 0 ) LIMIT 1   [ RunTime:0.000898s ]
+NOTIC: [8] Undefined index: perpage E:\work\isweek-dev\Application\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\Application\Home\Controller\IndexController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `sp_products` [ RunTime:0.001858s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sp_products` WHERE ( `audit` = 1 AND `status` = 1  ) LIMIT 1   [ RunTime:0.000896s ]
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+SQL: SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1 AND `recommend` = 1 union all SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1 AND `recommend` = 0 ORDER BY `recommend` desc,`edit_time` desc,`audit_time` desc LIMIT 0, 60 [ RunTime:0.002951s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000398s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000667s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 57 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058949s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059238s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001689s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001941s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003153s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003516s ]
+
+[ 2014-06-17T14:47:53+08:00 ] 192.168.2.212 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001903s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002689s ]
+
+[ 2014-06-17T14:47:53+08:00 ] 192.168.2.212 /admin/public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003131s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000290s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027365s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000936s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001507s ]
+
+[ 2014-06-17T14:47:53+08:00 ] 192.168.2.212 /Api/Checkcode/index/code_len/4/fontSize/25/imageW/200/imageH/60
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000947s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001660s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001889s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002083s ]
+
+[ 2014-06-17T14:48:02+08:00 ] 192.168.2.212 /Admin/public/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001687s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002864s ]
+NOTIC: [2] mysql_connect(): Access denied for user 'root'@'localhost' (using password: YES) E:\work\isweek-dev\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+ERR: Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2014-06-17T14:48:16+08:00 ] 192.168.2.212 /admin/public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001812s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002682s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000237s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000524s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028139s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028446s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001291s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001522s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003219s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003502s ]
+
+[ 2014-06-17T14:48:16+08:00 ] 192.168.2.212 /Api/Checkcode/index/code_len/4/fontSize/25/imageW/200/imageH/60
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000325s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002015s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002726s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002549s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002871s ]
+
+[ 2014-06-17T14:48:32+08:00 ] 192.168.2.212 /Admin/public/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001701s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002773s ]
+NOTIC: [2] mysql_connect(): Access denied for user 'root'@'localhost' (using password: YES) E:\work\isweek-dev\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+ERR: Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2014-06-17T14:49:14+08:00 ] 192.168.2.212 /admin/public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001697s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002801s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000238s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000523s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027166s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027465s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001287s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001523s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002648s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002930s ]
+
+[ 2014-06-17T14:49:15+08:00 ] 192.168.2.212 /Api/Checkcode/index/code_len/4/fontSize/25/imageW/200/imageH/60
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002635s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003869s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003362s ]
+
+[ 2014-06-17T14:49:22+08:00 ] 192.168.2.212 /Admin/public/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002961s ]
+SQL: SHOW COLUMNS FROM `sp_users` [ RunTime:0.001450s ]
+SQL: SELECT * FROM `sp_users` WHERE ( `user_login` = 'admin' ) LIMIT 1   [ RunTime:0.001300s ]
+SQL: UPDATE `sp_users` SET `user_login`='admin',`user_pass`='c535018ee94621232f297a57a5a743894a0e4a801fc389af',`user_nicename`='',`user_email`='xx@qq.com',`user_url`='',`last_login_ip`='192.168.2.212',`last_login_time`='2014-06-17 14:49:22',`create_time`='2014-05-15 10:47:58',`user_activation_key`='',`user_status`=1,`display_name`='admin',`role_id`=1 WHERE ( `ID` = '1' ) [ RunTime:0.000700s ]
+NOTIC: [8] Undefined index: data E:\work\isweek-dev\Application\Admin\Controller\AppframeController.class.php 第 62 行.
+
+[ 2014-06-17T14:49:24+08:00 ] 192.168.2.212 /Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001743s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002698s ]
+SQL: SHOW COLUMNS FROM `sp_users` [ RunTime:0.001413s ]
+SQL: SELECT * FROM `sp_users` WHERE ( ID=1 ) LIMIT 1   [ RunTime:0.000979s ]
+SQL: SHOW COLUMNS FROM `sp_menu` [ RunTime:0.001294s ]
+SQL: SELECT * FROM `sp_menu` ORDER BY `listorder` ASC  [ RunTime:0.001200s ]
+SQL: SELECT * FROM `sp_menu` WHERE ( `parentid` = 0 ) AND ( `status` = 1 ) ORDER BY `listorder` ASC  [ RunTime:0.001294s ]
+SQL: SELECT * FROM `sp_menu` WHERE ( `parentid` = 286 ) AND ( `status` = 1 ) ORDER BY `listorder` ASC  [ RunTime:0.000769s ]
+SQL: SELECT * FROM `sp_menu` WHERE ( `parentid` = 290 ) AND ( `status` = 1 ) ORDER BY `listorder` ASC  [ RunTime:0.001030s ]
+SQL: SELECT * FROM `sp_menu` WHERE ( `parentid` = 291 ) AND ( `status` = 1 ) ORDER BY `listorder` ASC  [ RunTime:0.001074s ]
+SQL: SELECT * FROM `sp_menu` WHERE ( `parentid` = 292 ) AND ( `status` = 1 ) ORDER BY `listorder` ASC  [ RunTime:0.000953s ]
+SQL: SELECT * FROM `sp_menu` WHERE ( `parentid` = 297 ) AND ( `status` = 1 ) ORDER BY `listorder` ASC  [ RunTime:0.001010s ]
+SQL: SELECT * FROM `sp_menu` WHERE ( `parentid` = 239 ) AND ( `status` = 1 ) ORDER BY `listorder` ASC  [ RunTime:0.001052s ]
+SQL: SELECT * FROM `sp_menu` WHERE ( `parentid` = 252 ) AND ( `status` = 1 ) ORDER BY `listorder` ASC  [ RunTime:0.000989s ]
+SQL: SELECT * FROM `sp_menu` WHERE ( `parentid` = 254 ) AND ( `status` = 1 ) ORDER BY `listorder` ASC  [ RunTime:0.000957s ]
+SQL: SELECT * FROM `sp_menu` WHERE ( `parentid` = 298 ) AND ( `status` = 1 ) ORDER BY `listorder` ASC  [ RunTime:0.001075s ]
+SQL: SELECT * FROM `sp_menu` WHERE ( `parentid` = 51 ) AND ( `status` = 1 ) ORDER BY `listorder` ASC  [ RunTime:0.001130s ]
+SQL: SELECT * FROM `sp_menu` WHERE ( `parentid` = 285 ) AND ( `status` = 1 ) ORDER BY `listorder` ASC  [ RunTime:0.000934s ]
+SQL: SELECT * FROM `sp_menu` WHERE ( `parentid` = 546 ) AND ( `status` = 1 ) ORDER BY `listorder` ASC  [ RunTime:0.000926s ]
+SQL: SELECT * FROM `sp_menu` WHERE ( `parentid` = 556 ) AND ( `status` = 1 ) ORDER BY `listorder` ASC  [ RunTime:0.000979s ]
+SQL: SELECT * FROM `sp_menu` WHERE ( `parentid` = 245 ) AND ( `status` = 1 ) ORDER BY `listorder` ASC  [ RunTime:0.000997s ]
+SQL: SELECT * FROM `sp_menu` WHERE ( `parentid` = 545 ) AND ( `status` = 1 ) ORDER BY `listorder` ASC  [ RunTime:0.001031s ]
+SQL: SELECT * FROM `sp_menu` WHERE ( `parentid` = 560 ) AND ( `status` = 1 ) ORDER BY `listorder` ASC  [ RunTime:0.001229s ]
+SQL: SELECT * FROM `sp_menu` WHERE ( `parentid` = 562 ) AND ( `status` = 1 ) ORDER BY `listorder` ASC  [ RunTime:0.001127s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000567s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000841s ]
+NOTIC: [8] Use of undefined constant user_login - assumed 'user_login' E:\work\isweek-dev\Application\Runtime\Cache\Admin\f97a46c30791f0f23c69a7f6d0fac24e.php 第 134 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061694s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062026s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001665s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001921s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003375s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003664s ]
+
+[ 2014-06-17T14:49:24+08:00 ] 192.168.2.212 /Public/Admin/css/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001833s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003651s ]
+ERR: 无法加载控制器:404
+
+[ 2014-06-17T14:49:24+08:00 ] 192.168.2.212 /Admin/Main/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000959s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001608s ]
+NOTIC: [2] mysql_get_server_info(): Access denied for user ''@'localhost' (using password: NO) E:\work\isweek-dev\Application\Admin\Controller\MainController.class.php 第 15 行.
+NOTIC: [2] mysql_get_server_info(): A link to the server could not be established E:\work\isweek-dev\Application\Admin\Controller\MainController.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+NOTIC: [8] Undefined variable: js_debug E:\work\isweek-dev\Application\Runtime\Cache\Admin\83baf3a0c62a22651344dbfdfcb1fd49.php 第 7 行.
+NOTIC: [8] Undefined variable: js_debug E:\work\isweek-dev\Application\Runtime\Cache\Admin\83baf3a0c62a22651344dbfdfcb1fd49.php 第 8 行.
+NOTIC: [8] Undefined variable: js_debug E:\work\isweek-dev\Application\Runtime\Cache\Admin\83baf3a0c62a22651344dbfdfcb1fd49.php 第 17 行.
+NOTIC: [8] Undefined variable: js_debug E:\work\isweek-dev\Application\Runtime\Cache\Admin\83baf3a0c62a22651344dbfdfcb1fd49.php 第 18 行.
+NOTIC: [8] Undefined variable: js_debug E:\work\isweek-dev\Application\Runtime\Cache\Admin\83baf3a0c62a22651344dbfdfcb1fd49.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037628s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037801s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001017s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001122s ]
+
+[ 2014-06-17T14:49:25+08:00 ] 192.168.2.212 /Public/Admin/css/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001739s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002762s ]
+ERR: 无法加载控制器:404
+
+[ 2014-06-17T14:49:31+08:00 ] 192.168.2.212 /Admin/Term/index/menuid/245
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002850s ]
+NOTIC: [2048] Declaration of Admin\Controller\TermController::listorders() should be compatible with that of Admin\Controller\AdminbaseController::listorders() E:\work\isweek-dev\Application\Admin\Controller\TermController.class.php 第 3 行.
+NOTIC: [2048] Declaration of Admin\Controller\TermController::show() should be compatible with that of Think\Controller::show() E:\work\isweek-dev\Application\Admin\Controller\TermController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `sp_users` [ RunTime:0.001424s ]
+SQL: SELECT * FROM `sp_users` WHERE ( ID=1 ) LIMIT 1   [ RunTime:0.000991s ]
+NOTIC: [2048] Declaration of Admin\Model\TermsModel::_before_write() should be compatible with that of Think\Model::_before_write() E:\work\isweek-dev\Application\Admin\Model\TermsModel.class.php 第 260 行.
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.001269s ]
+SQL: SELECT *,concat(path,'-',term_id) as bpath FROM `sp_terms` WHERE ( status='1' ) ORDER BY name asc, listorder asc  [ RunTime:0.001417s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( parent = 0 ) ORDER BY listorder asc  [ RunTime:0.001198s ]
+SQL: SELECT * FROM `sp_terms` ORDER BY listorder asc  [ RunTime:0.001192s ]
+SQL: SELECT * FROM `sp_terms` ORDER BY `listorder` asc  [ RunTime:0.001190s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000281s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029807s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000970s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001714s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001926s ]
+
+[ 2014-06-17T14:49:38+08:00 ] 192.168.2.212 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001907s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003628s ]
+NOTIC: [8] Undefined index: cid E:\work\isweek-dev\Application\Home\Controller\CommonController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.001418s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 0 ) LIMIT 1   [ RunTime:0.000900s ]
+NOTIC: [8] Undefined index: perpage E:\work\isweek-dev\Application\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\Application\Home\Controller\IndexController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `sp_products` [ RunTime:0.001783s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sp_products` WHERE ( `audit` = 1 AND `status` = 1  ) LIMIT 1   [ RunTime:0.000750s ]
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+SQL: SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1 AND `recommend` = 1 union all SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1 AND `recommend` = 0 ORDER BY `recommend` desc,`edit_time` desc,`audit_time` desc LIMIT 0, 60 [ RunTime:0.003059s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000239s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000398s ]
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040834s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041045s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001286s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001443s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001799s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002009s ]
+
+[ 2014-06-17T14:49:40+08:00 ] 192.168.2.212 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003092s ]
+NOTIC: [8] Undefined index: cid E:\work\isweek-dev\Application\Home\Controller\CommonController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.001595s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 0 ) LIMIT 1   [ RunTime:0.001096s ]
+NOTIC: [8] Undefined index: perpage E:\work\isweek-dev\Application\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\Application\Home\Controller\IndexController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `sp_products` [ RunTime:0.001945s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sp_products` WHERE ( `audit` = 1 AND `status` = 1  ) LIMIT 1   [ RunTime:0.000887s ]
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+SQL: SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1 AND `recommend` = 1 union all SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1 AND `recommend` = 0 ORDER BY `recommend` desc,`edit_time` desc,`audit_time` desc LIMIT 0, 60 [ RunTime:0.003012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000230s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000382s ]
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042019s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042222s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000928s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001610s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001772s ]
+
+[ 2014-06-17T14:50:58+08:00 ] 192.168.2.212 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001840s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003221s ]
+NOTIC: [8] Undefined index: cid E:\work\isweek-dev\Application\Home\Controller\CommonController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.001403s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 0 ) LIMIT 1   [ RunTime:0.000833s ]
+NOTIC: [8] Undefined index: perpage E:\work\isweek-dev\Application\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\Application\Home\Controller\IndexController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `sp_products` [ RunTime:0.001780s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sp_products` WHERE ( `audit` = 1 AND `status` = 1  ) LIMIT 1   [ RunTime:0.000662s ]
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined variable: pList E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 211 行.
+NOTIC: [8] Undefined variable: pListStart E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 320 行.
+NOTIC: [8] Undefined variable: pListEnd E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 320 行.
+NOTIC: [8] Undefined variable: pFirst E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 320 行.
+NOTIC: [8] Undefined variable: pPrev E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 320 行.
+SQL: SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1 AND `recommend` = 1 union all SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1 AND `recommend` = 0 ORDER BY `recommend` desc,`edit_time` desc,`audit_time` desc LIMIT 0, 2 [ RunTime:0.002269s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000285s ]
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029730s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029900s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001077s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001189s ]
+
+[ 2014-06-17T14:51:14+08:00 ] 192.168.2.212 /Home/Index/index/p/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002659s ]
+NOTIC: [8] Undefined index: cid E:\work\isweek-dev\Application\Home\Controller\CommonController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.001402s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 0 ) LIMIT 1   [ RunTime:0.000821s ]
+NOTIC: [8] Undefined index: perpage E:\work\isweek-dev\Application\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `sp_products` [ RunTime:0.001800s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sp_products` WHERE ( `audit` = 1 AND `status` = 1  ) LIMIT 1   [ RunTime:0.000628s ]
+NOTIC: [8] Undefined variable: pList E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 218 行.
+NOTIC: [8] Undefined variable: pListStart E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 320 行.
+NOTIC: [8] Undefined variable: pListEnd E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 320 行.
+SQL: SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1 AND `recommend` = 1 union all SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1 AND `recommend` = 0 ORDER BY `recommend` desc,`edit_time` desc,`audit_time` desc LIMIT 2, 2 [ RunTime:0.002117s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000465s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000761s ]
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057072s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057350s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001687s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001944s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003224s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003516s ]
+
+[ 2014-06-17T14:51:17+08:00 ] 192.168.2.212 /Home/Index/index/p/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001784s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002984s ]
+NOTIC: [8] Undefined index: cid E:\work\isweek-dev\Application\Home\Controller\CommonController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.001400s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 0 ) LIMIT 1   [ RunTime:0.000800s ]
+NOTIC: [8] Undefined index: perpage E:\work\isweek-dev\Application\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `sp_products` [ RunTime:0.001839s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sp_products` WHERE ( `audit` = 1 AND `status` = 1  ) LIMIT 1   [ RunTime:0.000540s ]
+NOTIC: [8] Undefined variable: pList E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 218 行.
+NOTIC: [8] Undefined variable: pListStart E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 320 行.
+NOTIC: [8] Undefined variable: pListEnd E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 320 行.
+SQL: SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1 AND `recommend` = 1 union all SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1 AND `recommend` = 0 ORDER BY `recommend` desc,`edit_time` desc,`audit_time` desc LIMIT 4, 2 [ RunTime:0.001975s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000289s ]
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042414s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042589s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000772s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001210s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001346s ]
+
+[ 2014-06-17T14:59:17+08:00 ] 192.168.2.212 /Admin/Products/index/audit/2/menuid/556
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001890s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003012s ]
+NOTIC: [2048] Declaration of Admin\Controller\ProductsController::listorders() should be compatible with that of Admin\Controller\AdminbaseController::listorders() E:\work\isweek-dev\Application\Admin\Controller\ProductsController.class.php 第 3 行.
+NOTIC: [2048] Declaration of Admin\Controller\ProductsController::show() should be compatible with that of Think\Controller::show() E:\work\isweek-dev\Application\Admin\Controller\ProductsController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `sp_users` [ RunTime:0.001403s ]
+SQL: SELECT * FROM `sp_users` WHERE ( ID=1 ) LIMIT 1   [ RunTime:0.001065s ]
+SQL: SHOW COLUMNS FROM `sp_products` [ RunTime:0.001886s ]
+NOTIC: [2048] Declaration of Admin\Model\TermsModel::_before_write() should be compatible with that of Think\Model::_before_write() E:\work\isweek-dev\Application\Admin\Model\TermsModel.class.php 第 260 行.
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.001297s ]
+SQL: SHOW COLUMNS FROM `sp_suppliers` [ RunTime:0.001228s ]
+SQL: SELECT `id`,`name` FROM `sp_suppliers` ORDER BY name ASC,listorder ASC  [ RunTime:0.000766s ]
+SQL: SELECT COUNT(*) AS tp_count FROM sp_products p WHERE ( 1  AND p.audit = 2  ) LIMIT 1   [ RunTime:0.000741s ]
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+SQL: SELECT p.id AS `id`,`product_name`,`serial_no`,`images`,`categorys`,s.name AS `supplier_name`,`attachment`,`post_time`,`audit_time`,`edit_time`,`recommend`,p.status,p.listorder FROM sp_products p LEFT JOIN sp_suppliers s ON p.supplier_id=s.id  WHERE ( 1  AND p.audit = 2  ) ORDER BY p.post_time DESC,p.listorder ASC LIMIT 0,20   [ RunTime:0.001312s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\work\isweek-dev\Application\Admin\Controller\ProductsController.class.php 第 285 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: category E:\work\isweek-dev\Application\Admin\Controller\ProductsController.class.php 第 303 行.
+SQL: SELECT * FROM `sp_terms` ORDER BY `listorder` asc  [ RunTime:0.001451s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000435s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000710s ]
+NOTIC: [8] Undefined index: start_time E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 42 行.
+NOTIC: [8] Undefined index: end_time E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 42 行.
+NOTIC: [8] Undefined index: keyword E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 50 行.
+NOTIC: [8] Use of undefined constant keyword_type - assumed 'keyword_type' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 52 行.
+NOTIC: [8] Undefined index: keyword_type E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 52 行.
+NOTIC: [8] Use of undefined constant keyword_type - assumed 'keyword_type' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 53 行.
+NOTIC: [8] Undefined index: keyword_type E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 53 行.
+NOTIC: [8] Use of undefined constant keyword_type - assumed 'keyword_type' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 54 行.
+NOTIC: [8] Undefined index: keyword_type E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 54 行.
+NOTIC: [8] Use of undefined constant keyword_type - assumed 'keyword_type' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 55 行.
+NOTIC: [8] Undefined index: keyword_type E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 55 行.
+NOTIC: [8] Use of undefined constant recommend - assumed 'recommend' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 62 行.
+NOTIC: [8] Undefined index: recommend E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 62 行.
+NOTIC: [8] Use of undefined constant recommend - assumed 'recommend' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 63 行.
+NOTIC: [8] Undefined index: recommend E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 63 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 73 行.
+NOTIC: [8] Use of undefined constant supplier - assumed 'supplier' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 73 行.
+NOTIC: [8] Undefined index: supplier E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 73 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 73 行.
+NOTIC: [8] Use of undefined constant supplier - assumed 'supplier' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 73 行.
+NOTIC: [8] Undefined index: supplier E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 73 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 73 行.
+NOTIC: [8] Use of undefined constant supplier - assumed 'supplier' E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 73 行.
+NOTIC: [8] Undefined index: supplier E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 73 行.
+NOTIC: [8] Undefined variable: listorders_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 139 行.
+NOTIC: [8] Undefined variable: audit_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 140 行.
+NOTIC: [8] Undefined variable: audit_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 141 行.
+NOTIC: [8] Undefined variable: recommend_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 142 行.
+NOTIC: [8] Undefined variable: recommend_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 143 行.
+NOTIC: [8] Undefined variable: show_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 144 行.
+NOTIC: [8] Undefined variable: show_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 145 行.
+NOTIC: [8] Undefined variable: delete_act E:\work\isweek-dev\Application\Runtime\Cache\Admin\4a5f17db4ce2742f5ac2d8bc7de472b7.php 第 146 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071383s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071660s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001699s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001946s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003829s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004122s ]
+
+[ 2014-06-17T14:59:19+08:00 ] 192.168.2.212 /Admin/Products/add/menuid/546
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001956s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003020s ]
+NOTIC: [2048] Declaration of Admin\Controller\ProductsController::listorders() should be compatible with that of Admin\Controller\AdminbaseController::listorders() E:\work\isweek-dev\Application\Admin\Controller\ProductsController.class.php 第 3 行.
+NOTIC: [2048] Declaration of Admin\Controller\ProductsController::show() should be compatible with that of Think\Controller::show() E:\work\isweek-dev\Application\Admin\Controller\ProductsController.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `sp_users` [ RunTime:0.001421s ]
+SQL: SELECT * FROM `sp_users` WHERE ( ID=1 ) LIMIT 1   [ RunTime:0.000981s ]
+SQL: SHOW COLUMNS FROM `sp_products` [ RunTime:0.002035s ]
+NOTIC: [2048] Declaration of Admin\Model\TermsModel::_before_write() should be compatible with that of Think\Model::_before_write() E:\work\isweek-dev\Application\Admin\Model\TermsModel.class.php 第 260 行.
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.001298s ]
+SQL: SHOW COLUMNS FROM `sp_suppliers` [ RunTime:0.001259s ]
+SQL: SELECT `id`,`name` FROM `sp_suppliers` ORDER BY name ASC,listorder ASC  [ RunTime:0.000487s ]
+NOTIC: [8] Undefined index: category E:\work\isweek-dev\Application\Admin\Controller\ProductsController.class.php 第 303 行.
+SQL: SELECT * FROM `sp_terms` ORDER BY `listorder` asc  [ RunTime:0.001160s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000294s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000454s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\94ebc0d47859bcf913c7905c246eb6a6.php 第 79 行.
+NOTIC: [8] Use of undefined constant supplier_id - assumed 'supplier_id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\94ebc0d47859bcf913c7905c246eb6a6.php 第 79 行.
+NOTIC: [8] Undefined variable: products E:\work\isweek-dev\Application\Runtime\Cache\Admin\94ebc0d47859bcf913c7905c246eb6a6.php 第 79 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\94ebc0d47859bcf913c7905c246eb6a6.php 第 79 行.
+NOTIC: [8] Use of undefined constant supplier_id - assumed 'supplier_id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\94ebc0d47859bcf913c7905c246eb6a6.php 第 79 行.
+NOTIC: [8] Undefined variable: products E:\work\isweek-dev\Application\Runtime\Cache\Admin\94ebc0d47859bcf913c7905c246eb6a6.php 第 79 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\94ebc0d47859bcf913c7905c246eb6a6.php 第 79 行.
+NOTIC: [8] Use of undefined constant supplier_id - assumed 'supplier_id' E:\work\isweek-dev\Application\Runtime\Cache\Admin\94ebc0d47859bcf913c7905c246eb6a6.php 第 79 行.
+NOTIC: [8] Undefined variable: products E:\work\isweek-dev\Application\Runtime\Cache\Admin\94ebc0d47859bcf913c7905c246eb6a6.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026613s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026766s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000907s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001289s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001788s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001979s ]
+
+[ 2014-06-17T15:23:59+08:00 ] 192.168.2.212 /Public/Admin/css/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003008s ]
+ERR: 无法加载控制器:404
+
+[ 2014-06-17T15:24:00+08:00 ] 192.168.2.212 /Public/Admin/css/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001686s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002779s ]
+ERR: 无法加载控制器:404
+
+[ 2014-06-17T15:24:59+08:00 ] 192.168.2.212 /Public/Admin/css/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001833s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003155s ]
+ERR: 无法加载控制器:404
+
+[ 2014-06-17T15:25:01+08:00 ] 192.168.2.212 /Public/Admin/css/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001766s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002647s ]
+ERR: 无法加载控制器:404
+
+[ 2014-06-17T15:29:38+08:00 ] 192.168.2.212 /Home/Index/index/p/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001842s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003068s ]
+NOTIC: [8] Undefined index: cid E:\work\isweek-dev\Application\Home\Controller\CommonController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.001402s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 0 ) LIMIT 1   [ RunTime:0.000865s ]
+NOTIC: [8] Undefined index: perpage E:\work\isweek-dev\Application\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `sp_products` [ RunTime:0.002209s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sp_products` WHERE ( `audit` = 1 AND `status` = 1  ) LIMIT 1   [ RunTime:0.000635s ]
+NOTIC: [8] Undefined variable: pList E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 218 行.
+NOTIC: [8] Undefined variable: pListStart E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 320 行.
+NOTIC: [8] Undefined variable: pListEnd E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 320 行.
+SQL: SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1 AND `recommend` = 1 union all SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1 AND `recommend` = 0 ORDER BY `recommend` desc,`edit_time` desc,`audit_time` desc LIMIT 4, 2 [ RunTime:0.001380s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000254s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000418s ]
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036717s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036920s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001016s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001734s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001925s ]
+
+[ 2014-06-17T15:30:42+08:00 ] 192.168.2.212 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001876s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003047s ]
+NOTIC: [8] Undefined index: cid E:\work\isweek-dev\Application\Home\Controller\CommonController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.001446s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 0 ) LIMIT 1   [ RunTime:0.001189s ]
+NOTIC: [8] Undefined index: perpage E:\work\isweek-dev\Application\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\Application\Home\Controller\IndexController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `sp_products` [ RunTime:0.001799s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sp_products` WHERE ( `audit` = 1 AND `status` = 1  ) LIMIT 1   [ RunTime:0.000610s ]
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined variable: pList E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 211 行.
+NOTIC: [8] Undefined variable: pListStart E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 320 行.
+NOTIC: [8] Undefined variable: pListEnd E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 320 行.
+NOTIC: [8] Undefined variable: pFirst E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 320 行.
+NOTIC: [8] Undefined variable: pPrev E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 320 行.
+SQL: SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1 AND `recommend` = 1 union all SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1 AND `recommend` = 0 ORDER BY `recommend` desc,`edit_time` desc,`audit_time` desc LIMIT 0, 2 [ RunTime:0.001567s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000281s ]
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035467s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035641s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000759s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001396s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001518s ]
+
+[ 2014-06-17T15:38:05+08:00 ] 192.168.2.212 /Home/Index/index/p/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003004s ]
+NOTIC: [8] Undefined index: cid E:\work\isweek-dev\Application\Home\Controller\CommonController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.001446s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 0 ) LIMIT 1   [ RunTime:0.000817s ]
+NOTIC: [8] Undefined index: perpage E:\work\isweek-dev\Application\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `sp_products` [ RunTime:0.001748s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sp_products` WHERE ( `audit` = 1 AND `status` = 1  ) LIMIT 1   [ RunTime:0.000759s ]
+NOTIC: [8] Undefined variable: pList E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 218 行.
+NOTIC: [8] Undefined variable: pListStart E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 320 行.
+NOTIC: [8] Undefined variable: pListEnd E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 320 行.
+SQL: SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1 AND `recommend` = 1 union all SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1 AND `recommend` = 0 ORDER BY `recommend` desc,`edit_time` desc,`audit_time` desc LIMIT 4, 2 [ RunTime:0.001164s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000250s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000415s ]
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031565s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031715s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001062s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001751s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001919s ]
+
+[ 2014-06-17T15:38:08+08:00 ] 192.168.2.212 /Home/Index/index/p/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002014s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003084s ]
+NOTIC: [8] Undefined index: cid E:\work\isweek-dev\Application\Home\Controller\CommonController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.001417s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 0 ) LIMIT 1   [ RunTime:0.000739s ]
+NOTIC: [8] Undefined index: perpage E:\work\isweek-dev\Application\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `sp_products` [ RunTime:0.001804s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sp_products` WHERE ( `audit` = 1 AND `status` = 1  ) LIMIT 1   [ RunTime:0.000620s ]
+NOTIC: [8] Undefined variable: pList E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 218 行.
+NOTIC: [8] Undefined variable: pListStart E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 320 行.
+NOTIC: [8] Undefined variable: pListEnd E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 320 行.
+SQL: SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1 AND `recommend` = 1 union all SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1 AND `recommend` = 0 ORDER BY `recommend` desc,`edit_time` desc,`audit_time` desc LIMIT 4, 2 [ RunTime:0.001591s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000173s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000294s ]
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028581s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028761s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000771s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001295s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001414s ]
+
+[ 2014-06-17T15:51:05+08:00 ] 192.168.2.212 /Home/Index/index/p/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001161s ]
+NOTIC: [8] Undefined index: cid E:\work\isweek-dev\Application\Home\Controller\CommonController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.001340s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 0 ) LIMIT 1   [ RunTime:0.000717s ]
+NOTIC: [8] Undefined index: perpage E:\work\isweek-dev\Application\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `sp_products` [ RunTime:0.001290s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sp_products` WHERE ( `audit` = 1 AND `status` = 1  ) LIMIT 1   [ RunTime:0.000709s ]
+NOTIC: [8] Undefined variable: pList E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 218 行.
+NOTIC: [8] Undefined variable: pListStart E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 320 行.
+NOTIC: [8] Undefined variable: pListEnd E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 320 行.
+SQL: SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1 AND `recommend` = 1 union all SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1 AND `recommend` = 0 ORDER BY `recommend` desc,`edit_time` desc,`audit_time` desc LIMIT 4, 2 [ RunTime:0.001187s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000287s ]
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050890s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003969s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006410s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006527s ]
+
+[ 2014-06-17T15:51:09+08:00 ] 192.168.2.212 /Home/Index/index/p/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001871s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003093s ]
+NOTIC: [8] Undefined index: cid E:\work\isweek-dev\Application\Home\Controller\CommonController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.001439s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 0 ) LIMIT 1   [ RunTime:0.000801s ]
+NOTIC: [8] Undefined index: perpage E:\work\isweek-dev\Application\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `sp_products` [ RunTime:0.001772s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sp_products` WHERE ( `audit` = 1 AND `status` = 1  ) LIMIT 1   [ RunTime:0.000832s ]
+NOTIC: [8] Undefined variable: pList E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 218 行.
+NOTIC: [8] Undefined variable: pListStart E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 320 行.
+NOTIC: [8] Undefined variable: pListEnd E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 320 行.
+SQL: SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1 AND `recommend` = 1 union all SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1 AND `recommend` = 0 ORDER BY `recommend` desc,`edit_time` desc,`audit_time` desc LIMIT 4, 2 [ RunTime:0.001229s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000255s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000424s ]
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030932s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031056s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000767s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001241s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001353s ]
+
+[ 2014-06-17T15:51:11+08:00 ] 192.168.2.212 /Home/Index/index/p/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001733s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003051s ]
+NOTIC: [8] Undefined index: cid E:\work\isweek-dev\Application\Home\Controller\CommonController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.001453s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 0 ) LIMIT 1   [ RunTime:0.001660s ]
+NOTIC: [8] Undefined index: perpage E:\work\isweek-dev\Application\Home\Controller\IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `sp_products` [ RunTime:0.001737s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sp_products` WHERE ( `audit` = 1 AND `status` = 1  ) LIMIT 1   [ RunTime:0.000829s ]
+NOTIC: [8] Undefined variable: pList E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 218 行.
+NOTIC: [8] Undefined variable: pListStart E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 320 行.
+NOTIC: [8] Undefined variable: pListEnd E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 320 行.
+SQL: SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1 AND `recommend` = 1 union all SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1 AND `recommend` = 0 ORDER BY `recommend` desc,`edit_time` desc,`audit_time` desc LIMIT 4, 2 [ RunTime:0.001550s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000170s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000287s ]
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029646s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029823s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000768s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001239s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001351s ]
+
+[ 2014-06-17T15:56:05+08:00 ] 192.168.2.212 /Category/index/cid/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001865s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003015s ]
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.001407s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 2 ) LIMIT 1   [ RunTime:0.000877s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 2 ) LIMIT 1   [ RunTime:0.000901s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( term_id = 2 OR path LIKE "0-2-%" )  [ RunTime:0.001310s ]
+NOTIC: [8] Undefined index: perpage E:\work\isweek-dev\Application\Home\Controller\CategoryController.class.php 第 66 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\Application\Home\Controller\CategoryController.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `sp_products` [ RunTime:0.001870s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sp_products` WHERE ( `audit` = 1 AND `status` = 1  AND ( `categorys` LIKE "%,2,%" OR `categorys` LIKE "%,4,%") ) LIMIT 1   [ RunTime:0.000748s ]
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+SQL: SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1  AND ( `categorys` LIKE "%,2,%" OR `categorys` LIKE "%,4,%") AND `recommend` = 1 union all SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1  AND ( `categorys` LIKE "%,2,%" OR `categorys` LIKE "%,4,%") AND `recommend` = 0 ORDER BY `recommend` desc,`edit_time` desc,`audit_time` desc LIMIT 0, 60 [ RunTime:0.001596s ]
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined variable: seo_page E:\work\isweek-dev\Application\Home\Controller\CategoryController.class.php 第 105 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000421s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000694s ]
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001699s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001948s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003638s ]
+
+[ 2014-06-17T15:56:06+08:00 ] 192.168.2.212 /Category/index/cid/60
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001156s ]
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.001340s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 60 ) LIMIT 1   [ RunTime:0.000797s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 60 ) LIMIT 1   [ RunTime:0.000851s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( term_id = 60 OR path LIKE "0-60-%" )  [ RunTime:0.000966s ]
+NOTIC: [8] Undefined index: perpage E:\work\isweek-dev\Application\Home\Controller\CategoryController.class.php 第 66 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\Application\Home\Controller\CategoryController.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `sp_products` [ RunTime:0.001555s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sp_products` WHERE ( `audit` = 1 AND `status` = 1  AND ( `categorys` LIKE "%,60,%") ) LIMIT 1   [ RunTime:0.000732s ]
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+SQL: SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1  AND ( `categorys` LIKE "%,60,%") AND `recommend` = 1 union all SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1  AND ( `categorys` LIKE "%,60,%") AND `recommend` = 0 ORDER BY `recommend` desc,`edit_time` desc,`audit_time` desc LIMIT 0, 60 [ RunTime:0.001098s ]
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined variable: seo_page E:\work\isweek-dev\Application\Home\Controller\CategoryController.class.php 第 105 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000268s ]
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021720s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021823s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000806s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001218s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001354s ]
+
+[ 2014-06-17T15:59:02+08:00 ] 192.168.2.212 /product/details/id/42
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001829s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003025s ]
+NOTIC: [8] Undefined index: cid E:\work\isweek-dev\Application\Home\Controller\CommonController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.001408s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 0 ) LIMIT 1   [ RunTime:0.000780s ]
+SQL: SHOW COLUMNS FROM `sp_products` [ RunTime:0.001798s ]
+SQL: SELECT * FROM `sp_products` WHERE ( `id` = 42 ) LIMIT 1   [ RunTime:0.001229s ]
+SQL: SHOW COLUMNS FROM `sp_products` [ RunTime:0.001656s ]
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.001692s ]
+SQL: SELECT * FROM `sp_products` WHERE ( `audit` = 1 ) AND ( `status` = 1 ) AND ( `categorys` LIKE '%,60,%' ) AND ( `id` NOT IN ('42') )  [ RunTime:0.001117s ]
+SQL: SELECT `path` FROM `sp_terms` WHERE ( `term_id` = '60' ) LIMIT 1   [ RunTime:0.000648s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = '60' ) LIMIT 1   [ RunTime:0.000752s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000477s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000745s ]
+NOTIC: [8] Undefined variable: vo E:\work\isweek-dev\Application\Runtime\Cache\Home\572a1f2a12effd556c6589cca10f5487.php 第 13 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\572a1f2a12effd556c6589cca10f5487.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\572a1f2a12effd556c6589cca10f5487.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\572a1f2a12effd556c6589cca10f5487.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\572a1f2a12effd556c6589cca10f5487.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\572a1f2a12effd556c6589cca10f5487.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\572a1f2a12effd556c6589cca10f5487.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\572a1f2a12effd556c6589cca10f5487.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\572a1f2a12effd556c6589cca10f5487.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\572a1f2a12effd556c6589cca10f5487.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\572a1f2a12effd556c6589cca10f5487.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076239s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076528s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001710s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001964s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004128s ]
+
+[ 2014-06-17T16:49:25+08:00 ] 192.168.2.212 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001847s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003008s ]
+NOTIC: [8] Undefined index: cid E:\work\isweek-dev\Application\Home\Controller\CommonController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.001400s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 0 ) LIMIT 1   [ RunTime:0.001222s ]
+NOTIC: [8] Undefined index: perpage E:\work\isweek-dev\Application\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\Application\Home\Controller\IndexController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `sp_products` [ RunTime:0.001989s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sp_products` WHERE ( `audit` = 1 AND `status` = 1  ) LIMIT 1   [ RunTime:0.000879s ]
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined variable: pList E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 211 行.
+NOTIC: [8] Undefined variable: pListStart E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 320 行.
+NOTIC: [8] Undefined variable: pListEnd E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 320 行.
+NOTIC: [8] Undefined variable: pFirst E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 320 行.
+NOTIC: [8] Undefined variable: pPrev E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 320 行.
+SQL: SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1 AND `recommend` = 1 union all SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1 AND `recommend` = 0 ORDER BY `recommend` desc,`edit_time` desc,`audit_time` desc LIMIT 0, 2 [ RunTime:0.001420s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000252s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000420s ]
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037543s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037738s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000929s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001807s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001977s ]
+
+[ 2014-06-17T17:18:05+08:00 ] 192.168.2.212 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001846s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002991s ]
+NOTIC: [8] Undefined index: cid E:\work\isweek-dev\Application\Home\Controller\CommonController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.001402s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 0 ) LIMIT 1   [ RunTime:0.000848s ]
+NOTIC: [8] Undefined index: perpage E:\work\isweek-dev\Application\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\Application\Home\Controller\IndexController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `sp_products` [ RunTime:0.001771s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sp_products` WHERE ( `audit` = 1 AND `status` = 1  ) LIMIT 1   [ RunTime:0.000652s ]
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined variable: pList E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 211 行.
+NOTIC: [8] Undefined variable: pListStart E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 320 行.
+NOTIC: [8] Undefined variable: pListEnd E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 320 行.
+NOTIC: [8] Undefined variable: pFirst E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 320 行.
+NOTIC: [8] Undefined variable: pPrev E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 320 行.
+SQL: SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1 AND `recommend` = 1 union all SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1 AND `recommend` = 0 ORDER BY `recommend` desc,`edit_time` desc,`audit_time` desc LIMIT 0, 2 [ RunTime:0.001390s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000251s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000432s ]
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034842s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001862s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002025s ]
+
+[ 2014-06-17T17:18:07+08:00 ] 192.168.2.212 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001768s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002933s ]
+NOTIC: [8] Undefined index: cid E:\work\isweek-dev\Application\Home\Controller\CommonController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.001407s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 0 ) LIMIT 1   [ RunTime:0.000850s ]
+NOTIC: [8] Undefined index: perpage E:\work\isweek-dev\Application\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\Application\Home\Controller\IndexController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `sp_products` [ RunTime:0.001761s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sp_products` WHERE ( `audit` = 1 AND `status` = 1  ) LIMIT 1   [ RunTime:0.000633s ]
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined variable: pList E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 211 行.
+NOTIC: [8] Undefined variable: pListStart E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 320 行.
+NOTIC: [8] Undefined variable: pListEnd E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 320 行.
+NOTIC: [8] Undefined variable: pFirst E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 320 行.
+NOTIC: [8] Undefined variable: pPrev E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 320 行.
+SQL: SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1 AND `recommend` = 1 union all SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1 AND `recommend` = 0 ORDER BY `recommend` desc,`edit_time` desc,`audit_time` desc LIMIT 0, 2 [ RunTime:0.001410s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000251s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000423s ]
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043040s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000932s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001776s ]
+
+[ 2014-06-17T17:18:09+08:00 ] 192.168.2.212 /Category/index/cid/46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001704s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002914s ]
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.001403s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 46 ) LIMIT 1   [ RunTime:0.000851s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 46 ) LIMIT 1   [ RunTime:0.000842s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( term_id = 46 OR path LIKE "0-46-%" )  [ RunTime:0.000932s ]
+NOTIC: [8] Undefined index: perpage E:\work\isweek-dev\Application\Home\Controller\CategoryController.class.php 第 66 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\Application\Home\Controller\CategoryController.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `sp_products` [ RunTime:0.001716s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sp_products` WHERE ( `audit` = 1 AND `status` = 1  AND ( `categorys` LIKE "%,46,%" OR `categorys` LIKE "%,52,%" OR `categorys` LIKE "%,54,%" OR `categorys` LIKE "%,56,%" OR `categorys` LIKE "%,58,%") ) LIMIT 1   [ RunTime:0.000614s ]
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+SQL: SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1  AND ( `categorys` LIKE "%,46,%" OR `categorys` LIKE "%,52,%" OR `categorys` LIKE "%,54,%" OR `categorys` LIKE "%,56,%" OR `categorys` LIKE "%,58,%") AND `recommend` = 1 union all SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1  AND ( `categorys` LIKE "%,46,%" OR `categorys` LIKE "%,52,%" OR `categorys` LIKE "%,54,%" OR `categorys` LIKE "%,56,%" OR `categorys` LIKE "%,58,%") AND `recommend` = 0 ORDER BY `recommend` desc,`edit_time` desc,`audit_time` desc LIMIT 0, 60 [ RunTime:0.002086s ]
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined variable: seo_page E:\work\isweek-dev\Application\Home\Controller\CategoryController.class.php 第 105 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000407s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000675s ]
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052551s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052712s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001107s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001291s ]
+
+[ 2014-06-17T17:18:14+08:00 ] 192.168.2.212 /Category/index/cid/46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001685s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.001456s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 46 ) LIMIT 1   [ RunTime:0.000854s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 46 ) LIMIT 1   [ RunTime:0.000834s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( term_id = 46 OR path LIKE "0-46-%" )  [ RunTime:0.000963s ]
+NOTIC: [8] Undefined index: perpage E:\work\isweek-dev\Application\Home\Controller\CategoryController.class.php 第 66 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\Application\Home\Controller\CategoryController.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `sp_products` [ RunTime:0.001721s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sp_products` WHERE ( `audit` = 1 AND `status` = 1  AND ( `categorys` LIKE "%,46,%" OR `categorys` LIKE "%,52,%" OR `categorys` LIKE "%,54,%" OR `categorys` LIKE "%,56,%" OR `categorys` LIKE "%,58,%") ) LIMIT 1   [ RunTime:0.000579s ]
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+SQL: SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1  AND ( `categorys` LIKE "%,46,%" OR `categorys` LIKE "%,52,%" OR `categorys` LIKE "%,54,%" OR `categorys` LIKE "%,56,%" OR `categorys` LIKE "%,58,%") AND `recommend` = 1 union all SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1  AND ( `categorys` LIKE "%,46,%" OR `categorys` LIKE "%,52,%" OR `categorys` LIKE "%,54,%" OR `categorys` LIKE "%,56,%" OR `categorys` LIKE "%,58,%") AND `recommend` = 0 ORDER BY `recommend` desc,`edit_time` desc,`audit_time` desc LIMIT 0, 60 [ RunTime:0.002123s ]
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined variable: seo_page E:\work\isweek-dev\Application\Home\Controller\CategoryController.class.php 第 105 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000232s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000383s ]
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034986s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035185s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000942s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001086s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001750s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001915s ]
+
+[ 2014-06-17T17:18:15+08:00 ] 192.168.2.212 /Category/index/cid/46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001781s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003370s ]
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.001480s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 46 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 46 ) LIMIT 1   [ RunTime:0.000972s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( term_id = 46 OR path LIKE "0-46-%" )  [ RunTime:0.001310s ]
+NOTIC: [8] Undefined index: perpage E:\work\isweek-dev\Application\Home\Controller\CategoryController.class.php 第 66 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\Application\Home\Controller\CategoryController.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `sp_products` [ RunTime:0.001475s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sp_products` WHERE ( `audit` = 1 AND `status` = 1  AND ( `categorys` LIKE "%,46,%" OR `categorys` LIKE "%,52,%" OR `categorys` LIKE "%,54,%" OR `categorys` LIKE "%,56,%" OR `categorys` LIKE "%,58,%") ) LIMIT 1   [ RunTime:0.000664s ]
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+SQL: SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1  AND ( `categorys` LIKE "%,46,%" OR `categorys` LIKE "%,52,%" OR `categorys` LIKE "%,54,%" OR `categorys` LIKE "%,56,%" OR `categorys` LIKE "%,58,%") AND `recommend` = 1 union all SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1  AND ( `categorys` LIKE "%,46,%" OR `categorys` LIKE "%,52,%" OR `categorys` LIKE "%,54,%" OR `categorys` LIKE "%,56,%" OR `categorys` LIKE "%,58,%") AND `recommend` = 0 ORDER BY `recommend` desc,`edit_time` desc,`audit_time` desc LIMIT 0, 60 [ RunTime:0.002566s ]
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined variable: seo_page E:\work\isweek-dev\Application\Home\Controller\CategoryController.class.php 第 105 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000262s ]
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029308s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029488s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000785s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001195s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001312s ]
+
+[ 2014-06-17T17:18:20+08:00 ] 192.168.2.212 /Category/index/cid/46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002908s ]
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.001410s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 46 ) LIMIT 1   [ RunTime:0.000864s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 46 ) LIMIT 1   [ RunTime:0.000833s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( term_id = 46 OR path LIKE "0-46-%" )  [ RunTime:0.000938s ]
+NOTIC: [8] Undefined index: perpage E:\work\isweek-dev\Application\Home\Controller\CategoryController.class.php 第 66 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\Application\Home\Controller\CategoryController.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `sp_products` [ RunTime:0.001709s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sp_products` WHERE ( `audit` = 1 AND `status` = 1  AND ( `categorys` LIKE "%,46,%" OR `categorys` LIKE "%,52,%" OR `categorys` LIKE "%,54,%" OR `categorys` LIKE "%,56,%" OR `categorys` LIKE "%,58,%") ) LIMIT 1   [ RunTime:0.000546s ]
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+SQL: SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1  AND ( `categorys` LIKE "%,46,%" OR `categorys` LIKE "%,52,%" OR `categorys` LIKE "%,54,%" OR `categorys` LIKE "%,56,%" OR `categorys` LIKE "%,58,%") AND `recommend` = 1 union all SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1  AND ( `categorys` LIKE "%,46,%" OR `categorys` LIKE "%,52,%" OR `categorys` LIKE "%,54,%" OR `categorys` LIKE "%,56,%" OR `categorys` LIKE "%,58,%") AND `recommend` = 0 ORDER BY `recommend` desc,`edit_time` desc,`audit_time` desc LIMIT 0, 60 [ RunTime:0.002144s ]
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined variable: seo_page E:\work\isweek-dev\Application\Home\Controller\CategoryController.class.php 第 105 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000225s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000375s ]
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040423s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040617s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000921s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001606s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001762s ]
+
+[ 2014-06-17T17:18:23+08:00 ] 192.168.2.212 /Category/index/cid/46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003011s ]
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.001410s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 46 ) LIMIT 1   [ RunTime:0.000875s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 46 ) LIMIT 1   [ RunTime:0.000860s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( term_id = 46 OR path LIKE "0-46-%" )  [ RunTime:0.000982s ]
+NOTIC: [8] Undefined index: perpage E:\work\isweek-dev\Application\Home\Controller\CategoryController.class.php 第 66 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\Application\Home\Controller\CategoryController.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `sp_products` [ RunTime:0.001957s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sp_products` WHERE ( `audit` = 1 AND `status` = 1  AND ( `categorys` LIKE "%,46,%" OR `categorys` LIKE "%,52,%" OR `categorys` LIKE "%,54,%" OR `categorys` LIKE "%,56,%" OR `categorys` LIKE "%,58,%") ) LIMIT 1   [ RunTime:0.000759s ]
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+SQL: SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1  AND ( `categorys` LIKE "%,46,%" OR `categorys` LIKE "%,52,%" OR `categorys` LIKE "%,54,%" OR `categorys` LIKE "%,56,%" OR `categorys` LIKE "%,58,%") AND `recommend` = 1 union all SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1  AND ( `categorys` LIKE "%,46,%" OR `categorys` LIKE "%,52,%" OR `categorys` LIKE "%,54,%" OR `categorys` LIKE "%,56,%" OR `categorys` LIKE "%,58,%") AND `recommend` = 0 ORDER BY `recommend` desc,`edit_time` desc,`audit_time` desc LIMIT 0, 60 [ RunTime:0.002096s ]
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined variable: seo_page E:\work\isweek-dev\Application\Home\Controller\CategoryController.class.php 第 105 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000419s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000689s ]
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059549s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059812s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001797s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002056s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003199s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003500s ]
+
+[ 2014-06-17T17:18:25+08:00 ] 192.168.2.212 /Category/index/cid/46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001734s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002912s ]
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.001399s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 46 ) LIMIT 1   [ RunTime:0.000891s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 46 ) LIMIT 1   [ RunTime:0.000878s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( term_id = 46 OR path LIKE "0-46-%" )  [ RunTime:0.001268s ]
+NOTIC: [8] Undefined index: perpage E:\work\isweek-dev\Application\Home\Controller\CategoryController.class.php 第 66 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\Application\Home\Controller\CategoryController.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `sp_products` [ RunTime:0.002086s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sp_products` WHERE ( `audit` = 1 AND `status` = 1  AND ( `categorys` LIKE "%,46,%" OR `categorys` LIKE "%,52,%" OR `categorys` LIKE "%,54,%" OR `categorys` LIKE "%,56,%" OR `categorys` LIKE "%,58,%") ) LIMIT 1   [ RunTime:0.000625s ]
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+SQL: SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1  AND ( `categorys` LIKE "%,46,%" OR `categorys` LIKE "%,52,%" OR `categorys` LIKE "%,54,%" OR `categorys` LIKE "%,56,%" OR `categorys` LIKE "%,58,%") AND `recommend` = 1 union all SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1  AND ( `categorys` LIKE "%,46,%" OR `categorys` LIKE "%,52,%" OR `categorys` LIKE "%,54,%" OR `categorys` LIKE "%,56,%" OR `categorys` LIKE "%,58,%") AND `recommend` = 0 ORDER BY `recommend` desc,`edit_time` desc,`audit_time` desc LIMIT 0, 60 [ RunTime:0.002147s ]
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined variable: seo_page E:\work\isweek-dev\Application\Home\Controller\CategoryController.class.php 第 105 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000420s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000688s ]
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057677s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057937s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001493s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001742s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002720s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003012s ]
+
+[ 2014-06-17T17:19:20+08:00 ] 192.168.2.212 /Category/index/cid/46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002015s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002988s ]
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.001435s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 46 ) LIMIT 1   [ RunTime:0.000821s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 46 ) LIMIT 1   [ RunTime:0.000902s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( term_id = 46 OR path LIKE "0-46-%" )  [ RunTime:0.001309s ]
+NOTIC: [8] Undefined index: perpage E:\work\isweek-dev\Application\Home\Controller\CategoryController.class.php 第 66 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\Application\Home\Controller\CategoryController.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `sp_products` [ RunTime:0.002265s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sp_products` WHERE ( `audit` = 1 AND `status` = 1  AND ( `categorys` LIKE "%,46,%" OR `categorys` LIKE "%,52,%" OR `categorys` LIKE "%,54,%" OR `categorys` LIKE "%,56,%" OR `categorys` LIKE "%,58,%") ) LIMIT 1   [ RunTime:0.000626s ]
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+SQL: SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1  AND ( `categorys` LIKE "%,46,%" OR `categorys` LIKE "%,52,%" OR `categorys` LIKE "%,54,%" OR `categorys` LIKE "%,56,%" OR `categorys` LIKE "%,58,%") AND `recommend` = 1 union all SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1  AND ( `categorys` LIKE "%,46,%" OR `categorys` LIKE "%,52,%" OR `categorys` LIKE "%,54,%" OR `categorys` LIKE "%,56,%" OR `categorys` LIKE "%,58,%") AND `recommend` = 0 ORDER BY `recommend` desc,`edit_time` desc,`audit_time` desc LIMIT 0, 60 [ RunTime:0.002093s ]
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined variable: seo_page E:\work\isweek-dev\Application\Home\Controller\CategoryController.class.php 第 105 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000418s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000689s ]
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061634s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002364s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003757s ]
+
+[ 2014-06-17T17:19:24+08:00 ] 192.168.2.212 /Category/index/cid/46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002657s ]
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.001397s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 46 ) LIMIT 1   [ RunTime:0.000863s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 46 ) LIMIT 1   [ RunTime:0.000872s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( term_id = 46 OR path LIKE "0-46-%" )  [ RunTime:0.001366s ]
+NOTIC: [8] Undefined index: perpage E:\work\isweek-dev\Application\Home\Controller\CategoryController.class.php 第 66 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\Application\Home\Controller\CategoryController.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `sp_products` [ RunTime:0.001680s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sp_products` WHERE ( `audit` = 1 AND `status` = 1  AND ( `categorys` LIKE "%,46,%" OR `categorys` LIKE "%,52,%" OR `categorys` LIKE "%,54,%" OR `categorys` LIKE "%,56,%" OR `categorys` LIKE "%,58,%") ) LIMIT 1   [ RunTime:0.000795s ]
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+SQL: SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1  AND ( `categorys` LIKE "%,46,%" OR `categorys` LIKE "%,52,%" OR `categorys` LIKE "%,54,%" OR `categorys` LIKE "%,56,%" OR `categorys` LIKE "%,58,%") AND `recommend` = 1 union all SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1  AND ( `categorys` LIKE "%,46,%" OR `categorys` LIKE "%,52,%" OR `categorys` LIKE "%,54,%" OR `categorys` LIKE "%,56,%" OR `categorys` LIKE "%,58,%") AND `recommend` = 0 ORDER BY `recommend` desc,`edit_time` desc,`audit_time` desc LIMIT 0, 60 [ RunTime:0.002094s ]
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined variable: seo_page E:\work\isweek-dev\Application\Home\Controller\CategoryController.class.php 第 105 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000236s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000387s ]
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047581s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047774s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000926s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002112s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002275s ]
+
+[ 2014-06-17T17:20:52+08:00 ] 192.168.2.212 /Category/index/cid/46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001842s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002997s ]
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.001417s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 46 ) LIMIT 1   [ RunTime:0.001019s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 46 ) LIMIT 1   [ RunTime:0.000833s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( term_id = 46 OR path LIKE "0-46-%" )  [ RunTime:0.000949s ]
+NOTIC: [8] Undefined index: perpage E:\work\isweek-dev\Application\Home\Controller\CategoryController.class.php 第 66 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\Application\Home\Controller\CategoryController.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `sp_products` [ RunTime:0.002190s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sp_products` WHERE ( `audit` = 1 AND `status` = 1  AND ( `categorys` LIKE "%,46,%" OR `categorys` LIKE "%,52,%" OR `categorys` LIKE "%,54,%" OR `categorys` LIKE "%,56,%" OR `categorys` LIKE "%,58,%") ) LIMIT 1   [ RunTime:0.000867s ]
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+SQL: SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1  AND ( `categorys` LIKE "%,46,%" OR `categorys` LIKE "%,52,%" OR `categorys` LIKE "%,54,%" OR `categorys` LIKE "%,56,%" OR `categorys` LIKE "%,58,%") AND `recommend` = 1 union all SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1  AND ( `categorys` LIKE "%,46,%" OR `categorys` LIKE "%,52,%" OR `categorys` LIKE "%,54,%" OR `categorys` LIKE "%,56,%" OR `categorys` LIKE "%,58,%") AND `recommend` = 0 ORDER BY `recommend` desc,`edit_time` desc,`audit_time` desc LIMIT 0, 60 [ RunTime:0.002085s ]
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined variable: seo_page E:\work\isweek-dev\Application\Home\Controller\CategoryController.class.php 第 105 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000419s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000691s ]
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060840s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001686s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001941s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004326s ]
+
+[ 2014-06-17T17:22:42+08:00 ] 192.168.2.212 /Category/index/cid/46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003060s ]
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.001421s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 46 ) LIMIT 1   [ RunTime:0.001125s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 46 ) LIMIT 1   [ RunTime:0.000857s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( term_id = 46 OR path LIKE "0-46-%" )  [ RunTime:0.001098s ]
+NOTIC: [8] Undefined index: perpage E:\work\isweek-dev\Application\Home\Controller\CategoryController.class.php 第 66 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\Application\Home\Controller\CategoryController.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `sp_products` [ RunTime:0.001820s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sp_products` WHERE ( `audit` = 1 AND `status` = 1  AND ( `categorys` LIKE "%,46,%" OR `categorys` LIKE "%,52,%" OR `categorys` LIKE "%,54,%" OR `categorys` LIKE "%,56,%" OR `categorys` LIKE "%,58,%") ) LIMIT 1   [ RunTime:0.000827s ]
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+SQL: SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1  AND ( `categorys` LIKE "%,46,%" OR `categorys` LIKE "%,52,%" OR `categorys` LIKE "%,54,%" OR `categorys` LIKE "%,56,%" OR `categorys` LIKE "%,58,%") AND `recommend` = 1 union all SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1  AND ( `categorys` LIKE "%,46,%" OR `categorys` LIKE "%,52,%" OR `categorys` LIKE "%,54,%" OR `categorys` LIKE "%,56,%" OR `categorys` LIKE "%,58,%") AND `recommend` = 0 ORDER BY `recommend` desc,`edit_time` desc,`audit_time` desc LIMIT 0, 60 [ RunTime:0.002059s ]
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined variable: seo_page E:\work\isweek-dev\Application\Home\Controller\CategoryController.class.php 第 105 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000235s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000384s ]
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037197s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037366s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000948s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001857s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002018s ]
+
+[ 2014-06-17T17:22:43+08:00 ] 192.168.2.212 /Category/index/cid/46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002676s ]
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.001414s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 46 ) LIMIT 1   [ RunTime:0.000859s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 46 ) LIMIT 1   [ RunTime:0.000829s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( term_id = 46 OR path LIKE "0-46-%" )  [ RunTime:0.000953s ]
+NOTIC: [8] Undefined index: perpage E:\work\isweek-dev\Application\Home\Controller\CategoryController.class.php 第 66 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\Application\Home\Controller\CategoryController.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `sp_products` [ RunTime:0.001715s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sp_products` WHERE ( `audit` = 1 AND `status` = 1  AND ( `categorys` LIKE "%,46,%" OR `categorys` LIKE "%,52,%" OR `categorys` LIKE "%,54,%" OR `categorys` LIKE "%,56,%" OR `categorys` LIKE "%,58,%") ) LIMIT 1   [ RunTime:0.000756s ]
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+SQL: SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1  AND ( `categorys` LIKE "%,46,%" OR `categorys` LIKE "%,52,%" OR `categorys` LIKE "%,54,%" OR `categorys` LIKE "%,56,%" OR `categorys` LIKE "%,58,%") AND `recommend` = 1 union all SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1  AND ( `categorys` LIKE "%,46,%" OR `categorys` LIKE "%,52,%" OR `categorys` LIKE "%,54,%" OR `categorys` LIKE "%,56,%" OR `categorys` LIKE "%,58,%") AND `recommend` = 0 ORDER BY `recommend` desc,`edit_time` desc,`audit_time` desc LIMIT 0, 60 [ RunTime:0.002094s ]
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined variable: seo_page E:\work\isweek-dev\Application\Home\Controller\CategoryController.class.php 第 105 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000234s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000386s ]
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037832s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001162s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001302s ]
+
+[ 2014-06-17T17:23:07+08:00 ] 192.168.2.212 /Category/index/cid/46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001991s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003034s ]
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.001406s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 46 ) LIMIT 1   [ RunTime:0.000881s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 46 ) LIMIT 1   [ RunTime:0.000898s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( term_id = 46 OR path LIKE "0-46-%" )  [ RunTime:0.001337s ]
+NOTIC: [8] Undefined index: perpage E:\work\isweek-dev\Application\Home\Controller\CategoryController.class.php 第 66 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\Application\Home\Controller\CategoryController.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `sp_products` [ RunTime:0.001717s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sp_products` WHERE ( `audit` = 1 AND `status` = 1  AND ( `categorys` LIKE "%,46,%" OR `categorys` LIKE "%,52,%" OR `categorys` LIKE "%,54,%" OR `categorys` LIKE "%,56,%" OR `categorys` LIKE "%,58,%") ) LIMIT 1   [ RunTime:0.000572s ]
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+SQL: SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1  AND ( `categorys` LIKE "%,46,%" OR `categorys` LIKE "%,52,%" OR `categorys` LIKE "%,54,%" OR `categorys` LIKE "%,56,%" OR `categorys` LIKE "%,58,%") AND `recommend` = 1 union all SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1  AND ( `categorys` LIKE "%,46,%" OR `categorys` LIKE "%,52,%" OR `categorys` LIKE "%,54,%" OR `categorys` LIKE "%,56,%" OR `categorys` LIKE "%,58,%") AND `recommend` = 0 ORDER BY `recommend` desc,`edit_time` desc,`audit_time` desc LIMIT 0, 60 [ RunTime:0.002098s ]
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined variable: seo_page E:\work\isweek-dev\Application\Home\Controller\CategoryController.class.php 第 105 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000406s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000681s ]
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060062s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060325s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001683s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001938s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003728s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004015s ]
+
+[ 2014-06-17T17:23:09+08:00 ] 192.168.2.212 /Category/index/cid/46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002968s ]
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.001403s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 46 ) LIMIT 1   [ RunTime:0.000866s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 46 ) LIMIT 1   [ RunTime:0.000901s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( term_id = 46 OR path LIKE "0-46-%" )  [ RunTime:0.001340s ]
+NOTIC: [8] Undefined index: perpage E:\work\isweek-dev\Application\Home\Controller\CategoryController.class.php 第 66 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\Application\Home\Controller\CategoryController.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `sp_products` [ RunTime:0.001945s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sp_products` WHERE ( `audit` = 1 AND `status` = 1  AND ( `categorys` LIKE "%,46,%" OR `categorys` LIKE "%,52,%" OR `categorys` LIKE "%,54,%" OR `categorys` LIKE "%,56,%" OR `categorys` LIKE "%,58,%") ) LIMIT 1   [ RunTime:0.000779s ]
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+SQL: SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1  AND ( `categorys` LIKE "%,46,%" OR `categorys` LIKE "%,52,%" OR `categorys` LIKE "%,54,%" OR `categorys` LIKE "%,56,%" OR `categorys` LIKE "%,58,%") AND `recommend` = 1 union all SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1  AND ( `categorys` LIKE "%,46,%" OR `categorys` LIKE "%,52,%" OR `categorys` LIKE "%,54,%" OR `categorys` LIKE "%,56,%" OR `categorys` LIKE "%,58,%") AND `recommend` = 0 ORDER BY `recommend` desc,`edit_time` desc,`audit_time` desc LIMIT 0, 60 [ RunTime:0.002950s ]
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined variable: seo_page E:\work\isweek-dev\Application\Home\Controller\CategoryController.class.php 第 105 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000410s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000677s ]
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059046s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059311s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001416s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001660s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003285s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003598s ]
+
+[ 2014-06-17T17:23:21+08:00 ] 192.168.2.212 /Category/index/cid/46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001692s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003886s ]
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.001692s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 46 ) LIMIT 1   [ RunTime:0.001001s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 46 ) LIMIT 1   [ RunTime:0.001087s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( term_id = 46 OR path LIKE "0-46-%" )  [ RunTime:0.001255s ]
+NOTIC: [8] Undefined index: perpage E:\work\isweek-dev\Application\Home\Controller\CategoryController.class.php 第 66 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\Application\Home\Controller\CategoryController.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `sp_products` [ RunTime:0.001689s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sp_products` WHERE ( `audit` = 1 AND `status` = 1  AND ( `categorys` LIKE "%,46,%" OR `categorys` LIKE "%,52,%" OR `categorys` LIKE "%,54,%" OR `categorys` LIKE "%,56,%" OR `categorys` LIKE "%,58,%") ) LIMIT 1   [ RunTime:0.000783s ]
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+SQL: SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1  AND ( `categorys` LIKE "%,46,%" OR `categorys` LIKE "%,52,%" OR `categorys` LIKE "%,54,%" OR `categorys` LIKE "%,56,%" OR `categorys` LIKE "%,58,%") AND `recommend` = 1 union all SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1  AND ( `categorys` LIKE "%,46,%" OR `categorys` LIKE "%,52,%" OR `categorys` LIKE "%,54,%" OR `categorys` LIKE "%,56,%" OR `categorys` LIKE "%,58,%") AND `recommend` = 0 ORDER BY `recommend` desc,`edit_time` desc,`audit_time` desc LIMIT 0, 60 [ RunTime:0.002195s ]
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined variable: seo_page E:\work\isweek-dev\Application\Home\Controller\CategoryController.class.php 第 105 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000407s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000678s ]
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062383s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001697s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004837s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005130s ]
+
+[ 2014-06-17T17:23:22+08:00 ] 192.168.2.212 /Category/index/cid/46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001704s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002982s ]
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.001416s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 46 ) LIMIT 1   [ RunTime:0.000861s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 46 ) LIMIT 1   [ RunTime:0.000880s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( term_id = 46 OR path LIKE "0-46-%" )  [ RunTime:0.001328s ]
+NOTIC: [8] Undefined index: perpage E:\work\isweek-dev\Application\Home\Controller\CategoryController.class.php 第 66 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\Application\Home\Controller\CategoryController.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `sp_products` [ RunTime:0.001771s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sp_products` WHERE ( `audit` = 1 AND `status` = 1  AND ( `categorys` LIKE "%,46,%" OR `categorys` LIKE "%,52,%" OR `categorys` LIKE "%,54,%" OR `categorys` LIKE "%,56,%" OR `categorys` LIKE "%,58,%") ) LIMIT 1   [ RunTime:0.000584s ]
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+SQL: SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1  AND ( `categorys` LIKE "%,46,%" OR `categorys` LIKE "%,52,%" OR `categorys` LIKE "%,54,%" OR `categorys` LIKE "%,56,%" OR `categorys` LIKE "%,58,%") AND `recommend` = 1 union all SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1  AND ( `categorys` LIKE "%,46,%" OR `categorys` LIKE "%,52,%" OR `categorys` LIKE "%,54,%" OR `categorys` LIKE "%,56,%" OR `categorys` LIKE "%,58,%") AND `recommend` = 0 ORDER BY `recommend` desc,`edit_time` desc,`audit_time` desc LIMIT 0, 60 [ RunTime:0.002088s ]
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined variable: seo_page E:\work\isweek-dev\Application\Home\Controller\CategoryController.class.php 第 105 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000423s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000816s ]
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060660s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060930s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001772s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004046s ]
+
+[ 2014-06-17T17:24:12+08:00 ] 192.168.2.212 /Category/index/cid/46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001685s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003271s ]
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.001287s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 46 ) LIMIT 1   [ RunTime:0.000855s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 46 ) LIMIT 1   [ RunTime:0.000906s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( term_id = 46 OR path LIKE "0-46-%" )  [ RunTime:0.001317s ]
+NOTIC: [8] Undefined index: perpage E:\work\isweek-dev\Application\Home\Controller\CategoryController.class.php 第 66 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\Application\Home\Controller\CategoryController.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `sp_products` [ RunTime:0.001806s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sp_products` WHERE ( `audit` = 1 AND `status` = 1  AND ( `categorys` LIKE "%,46,%" OR `categorys` LIKE "%,52,%" OR `categorys` LIKE "%,54,%" OR `categorys` LIKE "%,56,%" OR `categorys` LIKE "%,58,%") ) LIMIT 1   [ RunTime:0.000944s ]
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+SQL: SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1  AND ( `categorys` LIKE "%,46,%" OR `categorys` LIKE "%,52,%" OR `categorys` LIKE "%,54,%" OR `categorys` LIKE "%,56,%" OR `categorys` LIKE "%,58,%") AND `recommend` = 1 union all SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1  AND ( `categorys` LIKE "%,46,%" OR `categorys` LIKE "%,52,%" OR `categorys` LIKE "%,54,%" OR `categorys` LIKE "%,56,%" OR `categorys` LIKE "%,58,%") AND `recommend` = 0 ORDER BY `recommend` desc,`edit_time` desc,`audit_time` desc LIMIT 0, 60 [ RunTime:0.002095s ]
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined variable: seo_page E:\work\isweek-dev\Application\Home\Controller\CategoryController.class.php 第 105 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000426s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000703s ]
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060040s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060306s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001427s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001669s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003557s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003853s ]
+
+[ 2014-06-17T17:24:37+08:00 ] 192.168.2.212 /Category/index/cid/46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001795s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003003s ]
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.001411s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 46 ) LIMIT 1   [ RunTime:0.000887s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 46 ) LIMIT 1   [ RunTime:0.000897s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( term_id = 46 OR path LIKE "0-46-%" )  [ RunTime:0.001829s ]
+NOTIC: [8] Undefined index: perpage E:\work\isweek-dev\Application\Home\Controller\CategoryController.class.php 第 66 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\Application\Home\Controller\CategoryController.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `sp_products` [ RunTime:0.001721s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sp_products` WHERE ( `audit` = 1 AND `status` = 1  AND ( `categorys` LIKE "%,46,%" OR `categorys` LIKE "%,52,%" OR `categorys` LIKE "%,54,%" OR `categorys` LIKE "%,56,%" OR `categorys` LIKE "%,58,%") ) LIMIT 1   [ RunTime:0.000843s ]
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+SQL: SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1  AND ( `categorys` LIKE "%,46,%" OR `categorys` LIKE "%,52,%" OR `categorys` LIKE "%,54,%" OR `categorys` LIKE "%,56,%" OR `categorys` LIKE "%,58,%") AND `recommend` = 1 union all SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1  AND ( `categorys` LIKE "%,46,%" OR `categorys` LIKE "%,52,%" OR `categorys` LIKE "%,54,%" OR `categorys` LIKE "%,56,%" OR `categorys` LIKE "%,58,%") AND `recommend` = 0 ORDER BY `recommend` desc,`edit_time` desc,`audit_time` desc LIMIT 0, 60 [ RunTime:0.002083s ]
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined variable: seo_page E:\work\isweek-dev\Application\Home\Controller\CategoryController.class.php 第 105 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000233s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000384s ]
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034760s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034933s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000769s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001226s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001342s ]
+
+[ 2014-06-17T17:24:40+08:00 ] 192.168.2.212 /Category/index/cid/46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001722s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002670s ]
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.001456s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 46 ) LIMIT 1   [ RunTime:0.001113s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 46 ) LIMIT 1   [ RunTime:0.000847s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( term_id = 46 OR path LIKE "0-46-%" )  [ RunTime:0.001097s ]
+NOTIC: [8] Undefined index: perpage E:\work\isweek-dev\Application\Home\Controller\CategoryController.class.php 第 66 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\Application\Home\Controller\CategoryController.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `sp_products` [ RunTime:0.001660s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sp_products` WHERE ( `audit` = 1 AND `status` = 1  AND ( `categorys` LIKE "%,46,%" OR `categorys` LIKE "%,52,%" OR `categorys` LIKE "%,54,%" OR `categorys` LIKE "%,56,%" OR `categorys` LIKE "%,58,%") ) LIMIT 1   [ RunTime:0.000680s ]
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+SQL: SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1  AND ( `categorys` LIKE "%,46,%" OR `categorys` LIKE "%,52,%" OR `categorys` LIKE "%,54,%" OR `categorys` LIKE "%,56,%" OR `categorys` LIKE "%,58,%") AND `recommend` = 1 union all SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1  AND ( `categorys` LIKE "%,46,%" OR `categorys` LIKE "%,52,%" OR `categorys` LIKE "%,54,%" OR `categorys` LIKE "%,56,%" OR `categorys` LIKE "%,58,%") AND `recommend` = 0 ORDER BY `recommend` desc,`edit_time` desc,`audit_time` desc LIMIT 0, 60 [ RunTime:0.002097s ]
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined variable: seo_page E:\work\isweek-dev\Application\Home\Controller\CategoryController.class.php 第 105 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031409s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031590s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001152s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001272s ]
+
+[ 2014-06-17T17:27:24+08:00 ] 192.168.2.212 /Category/index/cid/46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003995s ]
+SQL: SHOW COLUMNS FROM `sp_terms` [ RunTime:0.001398s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 46 ) LIMIT 1   [ RunTime:0.000865s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( `term_id` = 46 ) LIMIT 1   [ RunTime:0.001066s ]
+SQL: SELECT * FROM `sp_terms` WHERE ( term_id = 46 OR path LIKE "0-46-%" )  [ RunTime:0.000996s ]
+NOTIC: [8] Undefined index: perpage E:\work\isweek-dev\Application\Home\Controller\CategoryController.class.php 第 66 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\Application\Home\Controller\CategoryController.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `sp_products` [ RunTime:0.001783s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sp_products` WHERE ( `audit` = 1 AND `status` = 1  AND ( `categorys` LIKE "%,46,%" OR `categorys` LIKE "%,52,%" OR `categorys` LIKE "%,54,%" OR `categorys` LIKE "%,56,%" OR `categorys` LIKE "%,58,%") ) LIMIT 1   [ RunTime:0.000648s ]
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+SQL: SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1  AND ( `categorys` LIKE "%,46,%" OR `categorys` LIKE "%,52,%" OR `categorys` LIKE "%,54,%" OR `categorys` LIKE "%,56,%" OR `categorys` LIKE "%,58,%") AND `recommend` = 1 union all SELECT * FROM `sp_products` WHERE `audit` = 1 AND `status` = 1  AND ( `categorys` LIKE "%,46,%" OR `categorys` LIKE "%,52,%" OR `categorys` LIKE "%,54,%" OR `categorys` LIKE "%,56,%" OR `categorys` LIKE "%,58,%") AND `recommend` = 0 ORDER BY `recommend` desc,`edit_time` desc,`audit_time` desc LIMIT 0, 60 [ RunTime:0.002020s ]
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined index: p E:\work\isweek-dev\ThinkPHP\Library\Org\Cmf\Page.class.php 第 176 行.
+NOTIC: [8] Undefined variable: seo_page E:\work\isweek-dev\Application\Home\Controller\CategoryController.class.php 第 105 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000427s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000708s ]
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+NOTIC: [8] Undefined variable: curr_search_cid E:\work\isweek-dev\Application\Runtime\Cache\Home\fed3948f064c6e682df0776db3761049.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065423s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065877s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001725s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003818s ]
+

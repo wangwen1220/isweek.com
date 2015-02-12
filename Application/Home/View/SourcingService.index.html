@@ -1,0 +1,108 @@
+<include file="common/header"/>
+  <div id="main">
+    <div class="wrapper">
+      <div class="w-fly-mr">
+        <div class="w-fly-cnt">
+          <div class="position"><a href="/">Home</a> <i>|</i> <strong>Sourcing Service</strong></div>
+
+          <form id="js-validator" class="w-form" action="{:U('sourcing_service/add')}" method="post" enctype="multipart/form-data">
+          <input type="hidden" name="dopost" value="true" />
+            <div class="header">
+              <h3>Sourcing Service</h3>
+              <p>ISweek is an industrial sourcing provider. You can entrust ISweek to source products for you. Please fill out the form below. <i>*</i> Means required.</p>
+            </div>
+
+            <fieldset class="product-info">
+              <div class="item clearfix">
+                <label class="label"><i>*</i> Product Name:</label>
+                <div class="input">
+                  <input type="text" name="productName" class="wide text">
+                </div>
+              </div>
+              <div class="item clearfix">
+                <label class="label">Model Number:</label>
+                <div class="input">
+                  <input type="text" name="modelNumber" class="text">
+                </div>
+              </div>
+              <div class="item clearfix">
+                <label class="label">Brand:</label>
+                <div class="input">
+                  <input type="text" name="brand" class="text">
+                  <div class="tips">If none, just leave it blank.</div>
+                </div>
+              </div>
+              <div class="item clearfix">
+                <label class="label">Manufacturer:</label>
+                <div class="input">
+                  <input type="text" name="manufacturer" class="wide text">
+                  <div class="tips">If none, just leave it blank.</div>
+                </div>
+              </div>
+              <div class="item clearfix">
+                <label class="label">Certification Required:</label>
+                <div class="input">
+                  <input type="text" name="certificationRequired" class="text">
+                </div>
+              </div>
+              <div class="item clearfix">
+                <label class="label">Purchase Quantity:</label>
+                <div class="input">
+                  <input type="text" name="purchaseQuantity" class="text">
+                </div>
+              </div>
+              <div class="item clearfix">
+                <label class="label">Attachment:</label>
+                <div class="input">
+                  <input type="text" readonly style="width:198px;">
+                  <input type="file" name="attachment" class="fn-hide">
+                  <input type="button" id="js-file" class="file" value="Browse">
+                </div>
+              </div>
+            </fieldset>
+
+            <fieldset class="product-info">
+              <legend>Your contact Information:</legend>
+              <div class="item clearfix">
+                <label class="label"><i>*</i> Your Name:</label>
+                <div class="input">
+                  <input type="text" name="name" class="text">
+                </div>
+              </div>
+              <div class="item clearfix">
+                <label class="label"><i>*</i> Your Email:</label>
+                <div class="input">
+                  <input type="text" name="email" class="text">
+                </div>
+              </div>
+              <div class="item clearfix">
+                <label class="label">Phone Number:</label>
+                <div class="input">
+                  <input type="text" name="phoneNumber" class="text">
+                </div>
+              </div>
+              <div class="item clearfix">
+                <label class="label"><i>*</i> Your Company Name:</label>
+                <div class="input">
+                  <input type="text" name="companyName" class="wide text">
+                </div>
+              </div>
+              <div class="item clearfix">
+                <label class="label">Website</label>
+                <div class="input">
+                  <input type="text" name="website" class="wide text">
+                </div>
+              </div>
+              <div class="item">
+                <button type="submit" class="submit">Submit</button>
+              </div>
+            </fieldset>
+            
+            <p>You can also write an email to <a class="email" href="mailto:sales@isweek.com" target="_blank" rel="nofollow" style="color:blue;">sales@isweek.com</a> with a subject "Sourcing Request" to leave your request details and we will contact you back soon.</p>
+          </form>
+        </div>
+      </div>
+      <include file="common/sidebar"/>
+    </div>
+  </div>
+<include file="common/footer"/>

@@ -1,0 +1,88 @@
+<aside class="w-fly-l">
+  <div id="sidebar">
+    <ul class="catlist">
+      <li class="catlist-item">
+        <a class="<?php if (empty($curr_term_id) && empty($page_biaozhi)) echo 'current ' ?>link" href="/">Top Sellers</a>
+      </li>
+
+	  <?php if(!empty($page_biaozhi) && $page_biaozhi=='product_detail'){/*若是产品详细页面*/ $arr_parent = $term_ids; ?>
+      <?php foreach($homepage_categorys2 as $vo){ ?>
+      <li class="catlist-item <?php foreach($arr_parent as $vo_parent){ if($vo_parent == $vo['term_id']){ echo ' unfold'; break; } } ?>">
+        <a class="link" href="{:rw_category_url($vo['name'],$vo['term_id'])}"><!-- 一级菜单 --><?php echo $vo['name'];?></a>
+        <?php if(!empty($vo['_child']) && is_array($vo['_child'])){ ?>
+        <?php $jia = true;/*输出加号或减号*/ foreach($arr_parent as $vo_parent){ if($vo_parent == $vo['term_id']){ $jia=false; break; } } ?>
+        <i><?php if($jia){ echo '+'; }else{ echo '–'; } ?></i>
+        <dl class="sublist fn-hide" style="<?php if($jia){ echo 'display:none;'; }else{ echo 'display:block;'; } ?>">
+          <?php foreach($vo['_child'] as $vo2){ ?>
+          <dt class="<!--?php if($curr_term_id == $vo2['term_id']){ echo 'current'; } ?-->
+          <?php
+			foreach($left_curr_term_ids as $id){ //$left_curr_term_ids 是在生产面包屑导航的时候生成的新数组，就是面包屑导航ID组
+				if($id == $vo2['term_id']){
+					echo ' current';
+				}
+			}
+		  ?>
+          "><!-- 二级菜单 -->
+          	<a href="{:rw_category_url($vo2['name'],$vo2['term_id'])}"><?php echo $vo2['name'];?></a>
+          </dt>
+          <?php if(!empty($vo2['_child']) && is_array($vo2['_child'])){ ?>
+          <?php $show = false;/*显示或隐藏*/ foreach($arr_parent as $vo_parent){ if($vo_parent == $vo2['term_id']){ $show=true; break; } } ?>
+          <dd>
+            <ul>
+              <?php foreach($vo2['_child'] as $vo3){ ?>
+              <li><a class="<?php foreach($arr_parent as $vo_parent){ if($vo_parent == $vo3['term_id']){ echo 'current'; break; } } ?>"
+              		href="{:rw_category_url($vo3['name'],$vo3['term_id'])}"><!-- 三级菜单 --><?php echo $vo3['name'];?></a>
+              		</li>
+              <?php } /*$vo3 end*/ ?>
+            </ul>
+          </dd>
+          <?php } ?>
+          <?php } /*$vo2 end*/ ?>
+        </dl>
+        <?php } ?>
+      </li>
+      <?php } /*$vo end*/ ?>
+      
+	  <?php }else{/*非产品详细页面*/ ?>
+	  <?php foreach($homepage_categorys2 as $vo){ ?>
+      <li class="catlist-item <?php foreach($arr_parent as $vo_parent){ if($vo_parent == $vo['term_id']){ echo ' unfold'; break; } } ?>">
+        <a class="link" href="{:rw_category_url($vo['name'],$vo['term_id'])}"><!-- 一级菜单 --><?php echo $vo['name'];?></a>
+        <?php if(!empty($vo['_child']) && is_array($vo['_child'])){ ?>
+        <?php $jia = true;/*输出加号或减号*/ foreach($arr_parent as $vo_parent){ if($vo_parent == $vo['term_id']){ $jia=false; break; } } ?>
+        <i><?php if($jia){ echo '+'; }else{ echo '–'; } ?></i>
+        <dl class="sublist fn-hide" style="<?php if($jia){ echo 'display:none;'; }else{ echo 'display:block;'; } ?>">
+          <?php foreach($vo['_child'] as $vo2){ ?>
+          <dt class="<!--?php if($curr_term_id == $vo2['term_id']){ echo 'current'; } ?-->
+          <?php
+			foreach($left_curr_term_ids as $id){ //$left_curr_term_ids 是在生产面包屑导航的时候生成的新数组，就是面包屑导航ID组
+				if($id == $vo2['term_id']){
+					echo ' current';
+				}
+			}
+		  ?>
+          "><!-- 二级菜单 -->
+          	<a href="{:rw_category_url($vo2['name'],$vo2['term_id'])}"><?php echo $vo2['name'];?></a>
+          </dt>
+          <?php if(!empty($vo2['_child']) && is_array($vo2['_child'])){ ?>
+          <?php $show = false;/*显示或隐藏*/ foreach($arr_parent as $vo_parent){ if($vo_parent == $vo2['term_id']){ $show=true; break; } } ?>
+          <dd>
+            <ul>
+              <?php foreach($vo2['_child'] as $vo3){ ?>
+              <li><a class="<?php foreach($arr_parent as $vo_parent){ if($vo_parent == $vo3['term_id']){ echo 'current'; break; } } ?>"
+              		href="{:rw_category_url($vo3['name'],$vo3['term_id'])}"><!-- 三级菜单 --><?php echo $vo3['name'];?></a>
+              		</li>
+              <?php } /*$vo3 end*/ ?>
+            </ul>
+          </dd>
+          <?php } ?>
+          <?php } /*$vo2 end*/ ?>
+        </dl>
+        <?php } ?>
+      </li>
+      <?php } /*$vo end*/ ?>
+      
+	  <?php }/*页面判断结束*/ ?>
+
+    </ul>
+  </div>
+</aside>
